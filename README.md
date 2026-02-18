@@ -1,18 +1,41 @@
-```text
-██╗██████╗ ███████╗ █████╗ ███╗   ██╗    █████╗ ██╗    ██╗██╗   ██╗███╗   ██╗██╗██╗   ██╗███████╗██████╗ ███████╗
-██║██╔══██╗██╔════╝██╔══██╗████╗  ██║   ██╔══██╗██║    ██║██║   ██║████╗  ██║██║██║   ██║██╔════╝██╔══██╗██╔════╝
-██║██████╔╝███████╗███████║██╔██╗ ██║   ███████║██║ █╗ ██║██║   ██║██╔██╗ ██║██║██║   ██║█████╗  ██████╔╝███████╗
-██║██╔══██╗╚════██║██╔══██║██║╚██╗██║   ██╔══██║██║███╗██║██║   ██║██║╚██╗██║██║╚██╗ ██╔╝██╔══╝  ██╔══██╗╚════██║
-██║██║  ██║███████║██║  ██║██║ ╚████║██╗██║  ██║╚███╔███╔╝╚██████╔╝██║ ╚████║██║ ╚████╔╝ ███████╗██║  ██║███████║
-╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═╝  ╚═╝ ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═══╝  ╚══════╝╚═╝  ╚═╝╚══════╝
-```
+<p align="center">
+<pre>
+██╗██████╗ ███████╗ █████╗ ███╗   ██╗ █████╗ ██╗
+██║██╔══██╗██╔════╝██╔══██╗████╗  ██║██╔══██╗██║
+██║██████╔╝███████╗███████║██╔██╗ ██║███████║██║
+██║██╔══██╗╚════██║██╔══██║██║╚██╗██║██╔══██║██║
+██║██║  ██║███████║██║  ██║██║ ╚████║██║  ██║██║
+╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝
 
-# IrsanAI Universe
+██╗   ██╗███╗   ██╗██╗██╗   ██╗███████╗██████╗ ███████╗███████╗
+██║   ██║████╗  ██║██║██║   ██║██╔════╝██╔══██╗██╔════╝██╔════╝
+██║   ██║██╔██╗ ██║██║██║   ██║█████╗  ██████╔╝███████╗█████╗
+██║   ██║██║╚██╗██║██║╚██╗ ██╔╝██╔══╝  ██╔══██╗╚════██║██╔══╝
+╚██████╔╝██║ ╚████║██║ ╚████╔╝ ███████╗██║  ██║███████║███████╗
+ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═══╝  ╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝
+</pre>
+</p>
 
-**Spec-First Multi-Agent Resonance Framework**  
-IrsanAI Universe defines protocols for high-fidelity reasoning across human prompts and cooperating AI agents. The repository has moved from conceptual manifesto to implementation-ready technical framework with explicit schemas, conflict-resolution logic, and measurable quality targets.
+# IrsanAI Universe — Command Center
 
-## Core Objective
+**Spec-First Multi-Agent Resonance Framework**
+IrsanAI Universe defines protocols for high-fidelity reasoning across human prompts and cooperating AI agents. The project now operates as an implementation-ready technical system with explicit schemas, conflict-resolution logic, and measurable quality targets.
+
+---
+
+## 🧠 Resonance Architecture
+
+This repository mirrors a **meta-cognitive flow** where sensitivity and structure co-exist:
+
+- **HSP Signal Layer**: preserves nuance, emotional context, and prompt texture.
+- **Logic Wrapper Layer**: converts nuanced inputs into bounded, testable protocol objects.
+- **Resonance Loop**: continuously reconciles meaning, evidence, and consensus so intent survives multi-agent transfer.
+
+In practice, NTF captures semantic intent, LRP secures logical integrity, and PDP orchestrates perspective-level convergence.
+
+---
+
+## 🎯 Core Objective
 
 Reduce semantic noise while maximizing resonance:
 
@@ -20,9 +43,11 @@ Reduce semantic noise while maximizing resonance:
 - **Resonance** = preservation of user intent, evidence traceability, and agent alignment.
 - **Target** = measurable semantic fidelity of **0.98** in controlled benchmark settings.
 
-## Protocol Stack
+---
 
-### 1) NTF — Neural Translation Framework
+## 🧩 Protocol Stack (Technical Definitions)
+
+### 🧩 NTF — Neural Translation Framework
 A deterministic-normalized transformation layer from user text to canonical semantic form.
 
 **Responsibilities**
@@ -35,7 +60,7 @@ A deterministic-normalized transformation layer from user text to canonical sema
 - Confidence and provenance metadata.
 - Evaluability against benchmark pairs.
 
-### 2) LRP — Logic Resonance Protocol
+### ⚖️ LRP — Logic Resonance Protocol
 An agent-to-agent transfer protocol that preserves logical constraints and suppresses hallucination through structured evidence binding.
 
 **Responsibilities**
@@ -43,7 +68,7 @@ An agent-to-agent transfer protocol that preserves logical constraints and suppr
 - Attach each claim to either source evidence or derivation rule.
 - Enforce contradiction checks before message handoff.
 
-### 3) PDP — Perspective-Driven Protocol
+### ⚡ PDP — Perspective-Driven Protocol
 A multi-perspective consensus protocol for heterogeneous model ecosystems (e.g., Grok, Gemini, Claude).
 
 **Responsibilities**
@@ -51,7 +76,20 @@ A multi-perspective consensus protocol for heterogeneous model ecosystems (e.g.,
 - Resolve conflicts through weighted voting and synthesis-relay.
 - Emit final consensus with dissent trace.
 
-## Repository Layout (Spec-First)
+---
+
+## 📚 Technical Specs (Start Here)
+
+- **Primary Spec:** [`TECHNICAL_SPEC.md`](./TECHNICAL_SPEC.md)
+- **Consensus Model:** [`CONSENSUS_MONUMENT.md`](./CONSENSUS_MONUMENT.md)
+- **Protocol Docs:**
+  - [`protocols/NTF-v1.0/README.md`](./protocols/NTF-v1.0/README.md)
+  - [`protocols/LRP-v1.3/README.md`](./protocols/LRP-v1.3/README.md)
+  - [`protocols/PDP-v3.0/README.md`](./protocols/PDP-v3.0/README.md)
+
+---
+
+## 🗂️ Repository Layout (Spec-First)
 
 ```text
 IrsanAI-Universe/
@@ -65,7 +103,9 @@ IrsanAI-Universe/
 └── src/                   # Future reference implementations
 ```
 
-## Implementation Roadmap
+---
+
+## 🛣️ Implementation Roadmap
 
 ### Phase A — Schema Hardening
 - Formalize NTF canonical object schema.
@@ -82,7 +122,9 @@ IrsanAI-Universe/
 - Integrate model adapters and replay logs.
 - Publish deterministic test vectors under `examples/`.
 
-## Definition of Done
+---
+
+## ✅ Definition of Done
 
 A protocol revision is considered complete when:
 1. Schema validates against all examples.
@@ -90,6 +132,8 @@ A protocol revision is considered complete when:
 3. Consensus conflicts are reproducible and auditable.
 4. Changes include migration notes and compatibility status.
 
-## Immediate Next Step
+---
 
-Read **TECHNICAL_SPEC.md** for exact JSON templates, benchmark methodology, and consensus rule implementation details.
+## 🚀 Immediate Next Step
+
+Read **[`TECHNICAL_SPEC.md`](./TECHNICAL_SPEC.md)** for exact JSON templates, benchmark methodology, and consensus rule implementation details.
