@@ -1,4 +1,6 @@
-<p align="center">
+<div align="center">
+
+
 <pre style="line-height: 0.9; font-size: 14px; margin: 1em 0;">
 <span style="color: #00D4FF; font-weight: bold;">██╗██████╗ ███████╗ █████╗ ███╗   ██╗ █████╗ ██╗</span>
 <span style="color: #00D4FF; font-weight: bold;">██║██╔══██╗██╔════╝██╔══██╗████╗  ██║██╔══██╗██║</span>
@@ -16,7 +18,7 @@
 
 <span style="color: #9B59B6; font-size: 12px;">powered by IrsanAI - sha0001000</span>
 </pre>
-</p>
+</div>
 
 
 # IrsanAI Universe — Command Center
