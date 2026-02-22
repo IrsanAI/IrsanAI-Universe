@@ -87,10 +87,26 @@ A multi-perspective consensus protocol for heterogeneous model ecosystems (e.g.,
 
 - **Primary Spec:** [`TECHNICAL_SPEC.md`](./TECHNICAL_SPEC.md)
 - **Consensus Model:** [`CONSENSUS_MONUMENT.md`](./CONSENSUS_MONUMENT.md)
+- **Sync + Pages Blueprint:** [`REPO_SYNC_AND_PAGES.md`](./REPO_SYNC_AND_PAGES.md)
 - **Protocol Docs:**
   - [`protocols/NTF-v1.0/README.md`](./protocols/NTF-v1.0/README.md)
   - [`protocols/LRP-v1.3/README.md`](./protocols/LRP-v1.3/README.md)
   - [`protocols/PDP-v3.0/README.md`](./protocols/PDP-v3.0/README.md)
+
+---
+
+## 🌐 Project Pages & Repository Network
+
+To support independent project visibility while keeping Universe as the central command center, this repository now tracks a dedicated sync-and-pages strategy in [`REPO_SYNC_AND_PAGES.md`](./REPO_SYNC_AND_PAGES.md).
+
+| Project | Source Repository | Planned GitHub Page | Sync Status |
+|---|---|---|---|
+| Universe | https://github.com/IrsanAI/IrsanAI-Universe | https://irsanai.github.io/IrsanAI-Universe/ | ACTIVE |
+| NTF | https://github.com/IrsanAI/NTF-v1.0 | https://irsanai.github.io/NTF-v1.0/ | REVIEW |
+| LRP | https://github.com/IrsanAI/IrsanAI-LRP-v1.3 | https://irsanai.github.io/IrsanAI-LRP-v1.3/ | REVIEW |
+| PDP | https://github.com/IrsanAI/IrsanAI-PDP-v2.0 | https://irsanai.github.io/IrsanAI-PDP-v2.0/ | REVIEW |
+
+> `REVIEW` indicates repository links are tracked but still need a final canonical-sync decision (submodule vs. manifest workflow).
 
 ---
 
@@ -101,6 +117,7 @@ IrsanAI-Universe/
 ├── README.md
 ├── TECHNICAL_SPEC.md
 ├── CONSENSUS_MONUMENT.md
+├── REPO_SYNC_AND_PAGES.md
 ├── spec/                  # Protocol and schema artifacts (JSON schema, ADRs, formal rules)
 ├── examples/              # Input/output examples for NTF, LRP, PDP
 ├── eval/                  # Benchmark scripts, metrics, reproducibility harness
