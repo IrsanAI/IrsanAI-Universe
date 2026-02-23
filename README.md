@@ -161,3 +161,22 @@ A protocol revision is considered complete when:
 ## 🚀 Immediate Next Step
 
 Read **[`TECHNICAL_SPEC.md`](./TECHNICAL_SPEC.md)** for exact JSON templates, benchmark methodology, and consensus rule implementation details.
+
+
+---
+
+## 🧾 LOP — Liste offener Punkte (für Weiterarbeit)
+
+Was aus meiner Sicht noch offen ist (fachlich, nicht technisch blockiert):
+
+1. **Pages in den anderen Repos wirklich aktivieren (Settings → Pages).**
+   - **Aktueller Stand:** `IrsanAI-Universe` dokumentiert die Ziel-URLs bereits, aber die Aktivierung selbst passiert pro Repository in GitHub-Settings und ist hier im Code nicht verifizierbar.
+   - **Wie fortsetzen:** In jedem Ziel-Repo unter *Settings → Pages* die Quelle setzen (`main` oder `gh-pages`) und anschließend die Live-URL in `spec/repo_manifest.json` + README-Status prüfen/aktualisieren.
+
+2. **Duplicate-Repos final konsolidieren (kanonisches Naming festlegen).**
+   - **Aktueller Stand:** Es gibt bereits Hinweise auf mögliche Duplikate im Manifest (z. B. LRP/PDP), aber noch keine finale Konsolidierungsentscheidung.
+   - **Wie fortsetzen:** Pro Protokoll ein kanonisches Repo benennen, alternative Repos per README-Hinweis als "archived/redirected" markieren und danach Manifest/README auf nur die kanonischen Ziele bereinigen.
+
+3. **Optional als nächsten Schritt: automatisches Updaten von `last_reviewed`/`sync_status` via GitHub API-Job.**
+   - **Aktueller Stand:** CI-Validierung für das Manifest ist vorhanden, aber die Werte werden noch manuell gepflegt.
+   - **Wie fortsetzen:** Einen geplanten Workflow ergänzen, der über die GitHub API Commit-/Release-Aktivität prüft, daraus Status ableitet (`ACTIVE/STALE/DIVERGED`) und bei Änderungen automatisiert einen PR mit Manifest-Update erstellt.
