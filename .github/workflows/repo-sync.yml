@@ -1,0 +1,26 @@
+name: Repo Sync Guard
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "spec/repo_manifest.json"
+      - "scripts/validate_repo_manifest.py"
+      - ".github/workflows/repo-sync.yml"
+  schedule:
+    - cron: "0 6 * * 1"
+
+jobs:
+  validate-manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate repository manifest
+        run: python scripts/validate_repo_manifest.py
