@@ -1,0 +1,44 @@
+{
+  "version": "1.0.0",
+  "generated_by": "manual",
+  "repositories": [
+    {
+      "name": "IrsanAI-Universe",
+      "category": "hub",
+      "source_url": "https://github.com/IrsanAI/IrsanAI-Universe",
+      "docs_url": "https://irsanai.github.io/IrsanAI-Universe/",
+      "sync_status": "ACTIVE",
+      "last_reviewed": "2026-02-23",
+      "canonical": true
+    },
+    {
+      "name": "NTF-v1.0",
+      "category": "protocol",
+      "source_url": "https://github.com/IrsanAI/NTF-v1.0",
+      "docs_url": "https://irsanai.github.io/NTF-v1.0/",
+      "sync_status": "REVIEW",
+      "last_reviewed": "2026-02-23",
+      "canonical": true
+    },
+    {
+      "name": "IrsanAI-LRP-v1.3",
+      "category": "protocol",
+      "source_url": "https://github.com/IrsanAI/IrsanAI-LRP-v1.3",
+      "docs_url": "https://irsanai.github.io/IrsanAI-LRP-v1.3/",
+      "sync_status": "REVIEW",
+      "last_reviewed": "2026-02-23",
+      "canonical": true,
+      "possible_duplicates": ["LRP-v1.3"]
+    },
+    {
+      "name": "IrsanAI-PDP-v2.0",
+      "category": "protocol",
+      "source_url": "https://github.com/IrsanAI/IrsanAI-PDP-v2.0",
+      "docs_url": "https://irsanai.github.io/IrsanAI-PDP-v2.0/",
+      "sync_status": "REVIEW",
+      "last_reviewed": "2026-02-23",
+      "canonical": true,
+      "possible_duplicates": ["PDP-v3.0-(Perspective-Driven Protocol)"]
+    }
+  ]
+}

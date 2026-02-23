@@ -87,10 +87,28 @@ A multi-perspective consensus protocol for heterogeneous model ecosystems (e.g.,
 
 - **Primary Spec:** [`TECHNICAL_SPEC.md`](./TECHNICAL_SPEC.md)
 - **Consensus Model:** [`CONSENSUS_MONUMENT.md`](./CONSENSUS_MONUMENT.md)
+- **Sync + Pages Blueprint:** [`REPO_SYNC_AND_PAGES.md`](./REPO_SYNC_AND_PAGES.md)
 - **Protocol Docs:**
   - [`protocols/NTF-v1.0/README.md`](./protocols/NTF-v1.0/README.md)
   - [`protocols/LRP-v1.3/README.md`](./protocols/LRP-v1.3/README.md)
   - [`protocols/PDP-v3.0/README.md`](./protocols/PDP-v3.0/README.md)
+
+---
+
+## 🌐 Project Pages & Repository Network
+
+To support independent project visibility while keeping Universe as the central command center, this repository now tracks a dedicated sync-and-pages strategy in [`REPO_SYNC_AND_PAGES.md`](./REPO_SYNC_AND_PAGES.md).
+
+| Project | Source Repository | Planned GitHub Page | Sync Status |
+|---|---|---|---|
+| Universe | https://github.com/IrsanAI/IrsanAI-Universe | https://irsanai.github.io/IrsanAI-Universe/ | ACTIVE |
+| NTF | https://github.com/IrsanAI/NTF-v1.0 | https://irsanai.github.io/NTF-v1.0/ | REVIEW |
+| LRP | https://github.com/IrsanAI/IrsanAI-LRP-v1.3 | https://irsanai.github.io/IrsanAI-LRP-v1.3/ | REVIEW |
+| PDP | https://github.com/IrsanAI/IrsanAI-PDP-v2.0 | https://irsanai.github.io/IrsanAI-PDP-v2.0/ | REVIEW |
+
+The tracked network is machine-readable via [`spec/repo_manifest.json`](./spec/repo_manifest.json) and validated in CI by [`.github/workflows/repo-sync.yml`](./.github/workflows/repo-sync.yml).
+
+> `REVIEW` indicates repository links are tracked but still need a final canonical-sync decision (submodule vs. manifest workflow).
 
 ---
 
@@ -101,6 +119,7 @@ IrsanAI-Universe/
 ├── README.md
 ├── TECHNICAL_SPEC.md
 ├── CONSENSUS_MONUMENT.md
+├── REPO_SYNC_AND_PAGES.md
 ├── spec/                  # Protocol and schema artifacts (JSON schema, ADRs, formal rules)
 ├── examples/              # Input/output examples for NTF, LRP, PDP
 ├── eval/                  # Benchmark scripts, metrics, reproducibility harness
@@ -142,3 +161,22 @@ A protocol revision is considered complete when:
 ## 🚀 Immediate Next Step
 
 Read **[`TECHNICAL_SPEC.md`](./TECHNICAL_SPEC.md)** for exact JSON templates, benchmark methodology, and consensus rule implementation details.
+
+
+---
+
+## 🧾 LOP — Liste offener Punkte (für Weiterarbeit)
+
+Was aus meiner Sicht noch offen ist (fachlich, nicht technisch blockiert):
+
+1. **Pages in den anderen Repos wirklich aktivieren (Settings → Pages).**
+   - **Aktueller Stand:** `IrsanAI-Universe` dokumentiert die Ziel-URLs bereits, aber die Aktivierung selbst passiert pro Repository in GitHub-Settings und ist hier im Code nicht verifizierbar.
+   - **Wie fortsetzen:** In jedem Ziel-Repo unter *Settings → Pages* die Quelle setzen (`main` oder `gh-pages`) und anschließend die Live-URL in `spec/repo_manifest.json` + README-Status prüfen/aktualisieren.
+
+2. **Duplicate-Repos final konsolidieren (kanonisches Naming festlegen).**
+   - **Aktueller Stand:** Es gibt bereits Hinweise auf mögliche Duplikate im Manifest (z. B. LRP/PDP), aber noch keine finale Konsolidierungsentscheidung.
+   - **Wie fortsetzen:** Pro Protokoll ein kanonisches Repo benennen, alternative Repos per README-Hinweis als "archived/redirected" markieren und danach Manifest/README auf nur die kanonischen Ziele bereinigen.
+
+3. **Optional als nächsten Schritt: automatisches Updaten von `last_reviewed`/`sync_status` via GitHub API-Job.**
+   - **Aktueller Stand:** CI-Validierung für das Manifest ist vorhanden, aber die Werte werden noch manuell gepflegt.
+   - **Wie fortsetzen:** Einen geplanten Workflow ergänzen, der über die GitHub API Commit-/Release-Aktivität prüft, daraus Status ableitet (`ACTIVE/STALE/DIVERGED`) und bei Änderungen automatisiert einen PR mit Manifest-Update erstellt.
