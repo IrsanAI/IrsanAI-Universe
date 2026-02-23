@@ -106,6 +106,8 @@ To support independent project visibility while keeping Universe as the central 
 | LRP | https://github.com/IrsanAI/IrsanAI-LRP-v1.3 | https://irsanai.github.io/IrsanAI-LRP-v1.3/ | REVIEW |
 | PDP | https://github.com/IrsanAI/IrsanAI-PDP-v2.0 | https://irsanai.github.io/IrsanAI-PDP-v2.0/ | REVIEW |
 
+The tracked network is machine-readable via [`spec/repo_manifest.json`](./spec/repo_manifest.json) and validated in CI by [`.github/workflows/repo-sync.yml`](./.github/workflows/repo-sync.yml).
+
 > `REVIEW` indicates repository links are tracked but still need a final canonical-sync decision (submodule vs. manifest workflow).
 
 ---

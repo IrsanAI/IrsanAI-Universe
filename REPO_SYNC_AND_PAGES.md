@@ -69,10 +69,16 @@ Suggested sync states:
 ## 6) Immediate Execution Checklist
 
 - [ ] Add submodule or manifest-based sync for all active protocol repositories.
-- [ ] Add `.github/workflows/repo-sync.yml` in Universe.
+- [x] Add `.github/workflows/repo-sync.yml` in Universe.
 - [ ] Add Pages landing pages in each protocol repository.
 - [ ] Update Universe README Project Pages table with live links.
 - [ ] Review duplicate repositories and define canonical names.
+
+
+Implemented in this repository:
+- Manifest file: [`spec/repo_manifest.json`](./spec/repo_manifest.json)
+- Validator script: [`scripts/validate_repo_manifest.py`](./scripts/validate_repo_manifest.py)
+- CI workflow: [`.github/workflows/repo-sync.yml`](./.github/workflows/repo-sync.yml)
 
 ## 7) Naming Consolidation Recommendation
 
