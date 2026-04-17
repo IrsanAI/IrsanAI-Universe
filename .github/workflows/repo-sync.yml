@@ -1,26 +1,46 @@
-name: Repo Sync Guard
+name: IrsanAI Universe Sync
 
 on:
-  workflow_dispatch:
-  pull_request:
+  schedule:
+    - cron: '0 * * * *' # Jede Stunde
+  push:
+    branches:
+      - main
     paths:
       - "spec/repo_manifest.json"
-      - "scripts/validate_repo_manifest.py"
-      - ".github/workflows/repo-sync.yml"
-  schedule:
-    - cron: "0 6 * * 1"
+      - "scripts/generate_manifest.py"
+  workflow_dispatch: # Manuelle Ausführung ermöglichen
 
 jobs:
-  validate-manifest:
+  sync-repos:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
     steps:
-      - name: Checkout
+      - name: Checkout Universe
         uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
 
-      - name: Validate repository manifest
-        run: python scripts/validate_repo_manifest.py
+      - name: Generate Manifest
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 scripts/generate_manifest.py
+
+      - name: Validate Manifest
+        run: |
+          if [ -f scripts/validate_repo_manifest.py ]; then
+            python3 scripts/validate_repo_manifest.py
+          fi
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add docs/repo_manifest.json spec/repo_manifest.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update repository manifest [skip ci]" && git push)
