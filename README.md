@@ -1,182 +1,76 @@
-<div align="center">
+# IrsanAI Universe | Central Command Hub 🌌
 
-
-<pre style="line-height: 0.9; font-size: 14px; margin: 1em 0;">
-<span style="color: #00D4FF; font-weight: bold;">██╗██████╗ ███████╗ █████╗ ███╗   ██╗ █████╗ ██╗</span>
-<span style="color: #00D4FF; font-weight: bold;">██║██╔══██╗██╔════╝██╔══██╗████╗  ██║██╔══██╗██║</span>
-<span style="color: #00D4FF; font-weight: bold;">██║██████╔╝███████╗███████║██╔██╗ ██║███████║██║</span>
-<span style="color: #00D4FF; font-weight: bold;">██║██╔══██╗╚════██║██╔══██║██║╚██╗██║██╔══██║██║</span>
-<span style="color: #00D4FF; font-weight: bold;">██║██║  ██║███████║██║  ██║██║ ╚████║██║  ██║██║</span>
-<span style="color: #00D4FF; font-weight: bold;">╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝</span>
-
-<span style="color: #FF6B35; font-weight: bold;">██╗   ██╗███╗   ██╗██╗██╗   ██╗███████╗██████╗ ███████╗███████╗</span>
-<span style="color: #FF6B35; font-weight: bold;">██║   ██║████╗  ██║██║██║   ██║██╔════╝██╔══██╗██╔════╝██╔════╝</span>
-<span style="color: #FF6B35; font-weight: bold;">██║   ██║██╔██╗ ██║██║██║   ██║█████╗  ██████╔╝███████╗█████╗</span>
-<span style="color: #FF6B35; font-weight: bold;">██║   ██║██║╚██╗██║██║╚██╗ ██╔╝██╔══╝  ██╔══██╗╚════██║██╔══╝</span>
-<span style="color: #FF6B35; font-weight: bold;">╚██████╔╝██║ ╚████║██║ ╚████╔╝ ███████╗██║  ██║███████║███████╗</span>
-<span style="color: #FF6B35; font-weight: bold;"> ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═══╝  ╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝</span>
-
-<span style="color: #9B59B6; font-size: 12px;">powered by IrsanAI - sha0001000</span>
-</pre>
-</div>
-
-
-# IrsanAI Universe — Command Center
-
-**Spec-First Multi-Agent Resonance Framework**
-IrsanAI Universe defines protocols for high-fidelity reasoning across human prompts and cooperating AI agents. The project now operates as an implementation-ready technical system with explicit schemas, conflict-resolution logic, and measurable quality targets.
+[**Deutsch**](#deutsch) | [**English**](#english)
 
 ---
 
-## 🧠 Resonance Architecture
+<a name="deutsch"></a>
 
-This repository mirrors a **meta-cognitive flow** where sensitivity and structure co-exist:
+## 🇩🇪 Deutsch: IrsanAI Universe
 
-- **HSP Signal Layer**: preserves nuance, emotional context, and prompt texture.
-- **Logic Wrapper Layer**: converts nuanced inputs into bounded, testable protocol objects.
-- **Resonance Loop**: continuously reconciles meaning, evidence, and consensus so intent survives multi-agent transfer.
+Willkommen im **IrsanAI Universe**, dem zentralen Orchestrierungs-Hub für den **Human-AI Resonance Stack**. Hier laufen alle Fäden unserer Protokolle, Agenten und Tools zusammen.
 
-In practice, NTF captures semantic intent, LRP secures logical integrity, and PDP orchestrates perspective-level convergence.
+### 🎯 Unsere Vision
+Wir bauen nicht nur KI-Tools; wir erschaffen ein Ökosystem für **semantische Integrität** und **kognitive Resonanz**. Durch unsere Protokolle NTF, LRP und PDP eliminieren wir "Analytical Drift" und stellen sicher, dass der menschliche Intent über hunderte von KI-Interaktionsschritten hinweg zu 100% erhalten bleibt.
 
----
+### 🛠 Der IrsanAI Stack (Die 15+ Säulen)
 
-## 🎯 Core Objective
+| Passfoto | Repository | Beschreibung | Status |
+| :---: | :--- | :--- | :--- |
+| <img src="docs/assets/img/passfotos/IrsanAI-Universe.png" width="64"> | [IrsanAI-Universe](https://github.com/IrsanAI/IrsanAI-Universe) | Der zentrale Hub und das Aushängeschild des gesamten Stacks. | 🟢 Live |
+| <img src="docs/assets/img/passfotos/NTF-v1.0.png" width="64"> | [NTF-v1.0](https://github.com/IrsanAI/NTF-v1.0) | NeuroToken Framework – Semantische Anker & Drift-Kontrolle. | 🟢 Live |
+| <img src="docs/assets/img/passfotos/LRP-v1.3.png" width="64"> | [LRP-v1.3](https://github.com/IrsanAI/LRP-v1.3) | LLM Response Protocol – Strukturierte Meta-Prompts. | 🟢 Live |
+| <img src="docs/assets/img/passfotos/IrsanAI-PDP-v2.0.png" width="64"> | [IrsanAI-PDP-v2.0](https://github.com/IrsanAI/IrsanAI-PDP-v2.0) | Perspective-Driven Protocol – Multi-Modell-Konsens. | 🟢 Live |
+| <img src="docs/assets/img/passfotos/IrsanAI-ARIA-Protocol.png" width="64"> | [IrsanAI-ARIA-Protocol](https://github.com/IrsanAI/IrsanAI-ARIA-Protocol) | Agent Reasoning & Intent Architecture – A2A Standard. | 🟢 v1.0 |
+| <img src="docs/assets/img/passfotos/mycelial-echo-forge.png" width="64"> | [mycelial-echo-forge](https://github.com/IrsanAI/mycelial-echo-forge) | Biologisch inspirierte, dezentrale KI-Architektur. | 🟡 v0.6 |
+| <img src="docs/assets/img/passfotos/IrsanAI-Void.png" width="64"> | [IrsanAI-Void](https://github.com/IrsanAI/IrsanAI-Void) | Psychologisches Survival-Game im Terminal. | 🟢 Live |
+| <img src="docs/assets/img/passfotos/TPM-Agent.png" width="64"> | [TPM-Agent](https://github.com/IrsanAI/TPM-Agent) | Black Hole Theory – Vorhersage in Hoch-Entropie-Daten. | 🟢 Live |
+| <img src="docs/assets/img/passfotos/irsanai-mom4ai-forge.png" width="64"> | [irsanai-mom4ai-forge](https://github.com/IrsanAI/irsanai-mom4ai-forge) | Evolutive Pipeline für neuronale Skelette (DAGs). | 🟢 Live |
+| <img src="docs/assets/img/passfotos/irsanai-hfar-engine.png" width="64"> | [irsanai-hfar-engine](https://github.com/IrsanAI/irsanai-hfar-engine) | Header-First Anchor Read – Token-sparende Lese-Engine. | 🟢 Live |
+| <img src="docs/assets/img/passfotos/IrsanAI-MindScape-3D.png" width="64"> | [IrsanAI-MindScape-3D](https://github.com/IrsanAI/IrsanAI-MindScape-3D) | 3D-Systemarchitektur & Heatmap-Entropie-Engine. | 🟢 Live |
+| <img src="docs/assets/img/passfotos/IrsanAI-Sata_Erase_Tool.png" width="64"> | [IrsanAI-Sata_Erase_Tool](https://github.com/IrsanAI/IrsanAI-Sata_Erase_Tool) | Professionelle Datenbereinigung mit 3D-Monitoring. | 🟢 Live |
+| <img src="docs/assets/img/passfotos/IrsanAI-dis-core.png" width="64"> | [IrsanAI-dis-core](https://github.com/IrsanAI/IrsanAI-dis-core) | Device Intelligence System – Autonomer Security Stack. | 🟢 v2.0 |
+| <img src="docs/assets/img/passfotos/IrsanAI-Forge.png" width="64"> | [IrsanAI-Forge](https://github.com/IrsanAI/IrsanAI-Forge) | Resonanz-gesteuerte GitHub-Schmiede für Intents. | 🟡 Beta |
+| <img src="docs/assets/img/passfotos/root-ascent-method.png" width="64"> | [root-ascent-method](https://github.com/IrsanAI/root-ascent-method) | Strukturierte Ursachenanalyse (Causal Ladder). | 🟢 v0.4 |
 
-Reduce semantic noise while maximizing resonance:
-
-- **Noise** = ambiguity, unsupported assumptions, hallucinated drift.
-- **Resonance** = preservation of user intent, evidence traceability, and agent alignment.
-- **Target** = measurable semantic fidelity of **0.98** in controlled benchmark settings.
-
----
-
-## 🧩 Protocol Stack (Technical Definitions)
-
-### 🧩 NTF — Neural Translation Framework
-A deterministic-normalized transformation layer from user text to canonical semantic form.
-
-**Responsibilities**
-- Normalize lexical variance (aliases, multilingual terms, abbreviations).
-- Extract invariant task intent.
-- Encode structure for downstream LRP/PDP processing.
-
-**Output Guarantees**
-- Canonical intent object.
-- Confidence and provenance metadata.
-- Evaluability against benchmark pairs.
-
-### ⚖️ LRP — Logic Resonance Protocol
-An agent-to-agent transfer protocol that preserves logical constraints and suppresses hallucination through structured evidence binding.
-
-**Responsibilities**
-- Serialize reasoning state as bounded JSON.
-- Attach each claim to either source evidence or derivation rule.
-- Enforce contradiction checks before message handoff.
-
-### ⚡ PDP — Perspective-Driven Protocol
-A multi-perspective consensus protocol for heterogeneous model ecosystems (e.g., Grok, Gemini, Claude).
-
-**Responsibilities**
-- Run perspective-specialized passes on the same canonical task.
-- Resolve conflicts through weighted voting and synthesis-relay.
-- Emit final consensus with dissent trace.
+### 🚀 Live Dashboard
+Besuchen Sie unser interaktives Dashboard unter:  
+👉 **[irsanai.github.io/IrsanAI-Universe/](https://irsanai.github.io/IrsanAI-Universe/)**
 
 ---
 
-## 📚 Technical Specs (Start Here)
+<a name="english"></a>
 
-- **Primary Spec:** [`TECHNICAL_SPEC.md`](./TECHNICAL_SPEC.md)
-- **Consensus Model:** [`CONSENSUS_MONUMENT.md`](./CONSENSUS_MONUMENT.md)
-- **Sync + Pages Blueprint:** [`REPO_SYNC_AND_PAGES.md`](./REPO_SYNC_AND_PAGES.md)
-- **Protocol Docs:**
-  - [`protocols/NTF-v1.0/README.md`](./protocols/NTF-v1.0/README.md)
-  - [`protocols/LRP-v1.3/README.md`](./protocols/LRP-v1.3/README.md)
-  - [`protocols/PDP-v3.0/README.md`](./protocols/PDP-v3.0/README.md)
+## 🇬🇧 English: IrsanAI Universe
 
----
+Welcome to the **IrsanAI Universe**, the central orchestration hub for the **Human-AI Resonance Stack**. This is where all threads of our protocols, agents, and tools converge.
 
-## 🌐 Project Pages & Repository Network
+### 🎯 Our Vision
+We don't just build AI tools; we create an ecosystem for **semantic integrity** and **cognitive resonance**. Through our NTF, LRP, and PDP protocols, we eliminate analytical drift and ensure that human intent remains 100% preserved across hundreds of AI interaction steps.
 
-To support independent project visibility while keeping Universe as the central command center, this repository now tracks a dedicated sync-and-pages strategy in [`REPO_SYNC_AND_PAGES.md`](./REPO_SYNC_AND_PAGES.md).
+### 🛠 The IrsanAI Stack (The 15+ Pillars)
 
-| Project | Source Repository | Planned GitHub Page | Sync Status |
-|---|---|---|---|
-| Universe | https://github.com/IrsanAI/IrsanAI-Universe | https://irsanai.github.io/IrsanAI-Universe/ | ACTIVE |
-| NTF | https://github.com/IrsanAI/NTF-v1.0 | https://irsanai.github.io/NTF-v1.0/ | REVIEW |
-| LRP | https://github.com/IrsanAI/IrsanAI-LRP-v1.3 | https://irsanai.github.io/IrsanAI-LRP-v1.3/ | REVIEW |
-| PDP | https://github.com/IrsanAI/IrsanAI-PDP-v2.0 | https://irsanai.github.io/IrsanAI-PDP-v2.0/ | REVIEW |
+| Passfoto | Repository | Description | Status |
+| :---: | :--- | :--- | :--- |
+| <img src="docs/assets/img/passfotos/IrsanAI-Universe.png" width="64"> | [IrsanAI-Universe](https://github.com/IrsanAI/IrsanAI-Universe) | The central hub and flagship of the entire stack. | 🟢 Live |
+| <img src="docs/assets/img/passfotos/NTF-v1.0.png" width="64"> | [NTF-v1.0](https://github.com/IrsanAI/NTF-v1.0) | NeuroToken Framework – Semantic Anchors & Drift Control. | 🟢 Live |
+| <img src="docs/assets/img/passfotos/LRP-v1.3.png" width="64"> | [LRP-v1.3](https://github.com/IrsanAI/LRP-v1.3) | LLM Response Protocol – Structured Meta-Prompts. | 🟢 Live |
+| <img src="docs/assets/img/passfotos/IrsanAI-PDP-v2.0.png" width="64"> | [IrsanAI-PDP-v2.0](https://github.com/IrsanAI/IrsanAI-PDP-v2.0) | Perspective-Driven Protocol – Multi-Model Consensus. | 🟢 Live |
+| <img src="docs/assets/img/passfotos/IrsanAI-ARIA-Protocol.png" width="64"> | [IrsanAI-ARIA-Protocol](https://github.com/IrsanAI/IrsanAI-ARIA-Protocol) | Agent Reasoning & Intent Architecture – A2A Standard. | 🟢 v1.0 |
+| <img src="docs/assets/img/passfotos/mycelial-echo-forge.png" width="64"> | [mycelial-echo-forge](https://github.com/IrsanAI/mycelial-echo-forge) | Biologically inspired, decentralized AI architecture. | 🟡 v0.6 |
+| <img src="docs/assets/img/passfotos/IrsanAI-Void.png" width="64"> | [IrsanAI-Void](https://github.com/IrsanAI/IrsanAI-Void) | Psychological survival game in the terminal. | 🟢 Live |
+| <img src="docs/assets/img/passfotos/TPM-Agent.png" width="64"> | [TPM-Agent](https://github.com/IrsanAI/TPM-Agent) | Black Hole Theory – Prediction in high-entropy data. | 🟢 Live |
+| <img src="docs/assets/img/passfotos/irsanai-mom4ai-forge.png" width="64"> | [irsanai-mom4ai-forge](https://github.com/IrsanAI/irsanai-mom4ai-forge) | Evolutive pipeline for neural skeletons (DAGs). | 🟢 Live |
+| <img src="docs/assets/img/passfotos/irsanai-hfar-engine.png" width="64"> | [irsanai-hfar-engine](https://github.com/IrsanAI/irsanai-hfar-engine) | Header-First Anchor Read – Token-saving read engine. | 🟢 Live |
+| <img src="docs/assets/img/passfotos/IrsanAI-MindScape-3D.png" width="64"> | [IrsanAI-MindScape-3D](https://github.com/IrsanAI/IrsanAI-MindScape-3D) | 3D system architecture & heatmap entropy engine. | 🟢 Live |
+| <img src="docs/assets/img/passfotos/IrsanAI-Sata_Erase_Tool.png" width="64"> | [IrsanAI-Sata_Erase_Tool](https://github.com/IrsanAI/IrsanAI-Sata_Erase_Tool) | Professional data sanitization with 3D monitoring. | 🟢 Live |
+| <img src="docs/assets/img/passfotos/IrsanAI-dis-core.png" width="64"> | [IrsanAI-dis-core](https://github.com/IrsanAI/IrsanAI-dis-core) | Device Intelligence System – Autonomous security stack. | 🟢 v2.0 |
+| <img src="docs/assets/img/passfotos/IrsanAI-Forge.png" width="64"> | [IrsanAI-Forge](https://github.com/IrsanAI/IrsanAI-Forge) | Resonance-powered GitHub forge for intents. | 🟡 Beta |
+| <img src="docs/assets/img/passfotos/root-ascent-method.png" width="64"> | [root-ascent-method](https://github.com/IrsanAI/root-ascent-method) | Structured root cause analysis (Causal Ladder). | 🟢 v0.4 |
 
-The tracked network is machine-readable via [`spec/repo_manifest.json`](./spec/repo_manifest.json) and validated in CI by [`.github/workflows/repo-sync.yml`](./.github/workflows/repo-sync.yml).
-
-> `REVIEW` indicates repository links are tracked but still need a final canonical-sync decision (submodule vs. manifest workflow).
-
----
-
-## 🗂️ Repository Layout (Spec-First)
-
-```text
-IrsanAI-Universe/
-├── README.md
-├── TECHNICAL_SPEC.md
-├── CONSENSUS_MONUMENT.md
-├── REPO_SYNC_AND_PAGES.md
-├── spec/                  # Protocol and schema artifacts (JSON schema, ADRs, formal rules)
-├── examples/              # Input/output examples for NTF, LRP, PDP
-├── eval/                  # Benchmark scripts, metrics, reproducibility harness
-│   └── ntf_bench.py
-└── src/                   # Future reference implementations
-```
+### 🚀 Live Dashboard
+Visit our interactive dashboard at:  
+👉 **[irsanai.github.io/IrsanAI-Universe/](https://irsanai.github.io/IrsanAI-Universe/)**
 
 ---
-
-## 🛣️ Implementation Roadmap
-
-### Phase A — Schema Hardening
-- Formalize NTF canonical object schema.
-- Freeze LRP message templates with validation rules.
-- Define PDP consensus envelope and dissent representation.
-
-### Phase B — Evaluation Infrastructure
-- Build `eval/ntf_bench.py` for semantic fidelity tracking.
-- Curate benchmark corpus (prompt-paraphrase-intent triples).
-- Add pass/fail thresholds and trend reporting.
-
-### Phase C — Execution Layer
-- Implement protocol runtime in `src/`.
-- Integrate model adapters and replay logs.
-- Publish deterministic test vectors under `examples/`.
-
----
-
-## ✅ Definition of Done
-
-A protocol revision is considered complete when:
-1. Schema validates against all examples.
-2. Benchmark fidelity remains at/above target.
-3. Consensus conflicts are reproducible and auditable.
-4. Changes include migration notes and compatibility status.
-
----
-
-## 🚀 Immediate Next Step
-
-Read **[`TECHNICAL_SPEC.md`](./TECHNICAL_SPEC.md)** for exact JSON templates, benchmark methodology, and consensus rule implementation details.
-
-
----
-
-## 🧾 LOP — Liste offener Punkte (für Weiterarbeit)
-
-Was aus meiner Sicht noch offen ist (fachlich, nicht technisch blockiert):
-
-1. **Pages in den anderen Repos wirklich aktivieren (Settings → Pages).**
-   - **Aktueller Stand:** `IrsanAI-Universe` dokumentiert die Ziel-URLs bereits, aber die Aktivierung selbst passiert pro Repository in GitHub-Settings und ist hier im Code nicht verifizierbar.
-   - **Wie fortsetzen:** In jedem Ziel-Repo unter *Settings → Pages* die Quelle setzen (`main` oder `gh-pages`) und anschließend die Live-URL in `spec/repo_manifest.json` + README-Status prüfen/aktualisieren.
-
-2. **Duplicate-Repos final konsolidieren (kanonisches Naming festlegen).**
-   - **Aktueller Stand:** Es gibt bereits Hinweise auf mögliche Duplikate im Manifest (z. B. LRP/PDP), aber noch keine finale Konsolidierungsentscheidung.
-   - **Wie fortsetzen:** Pro Protokoll ein kanonisches Repo benennen, alternative Repos per README-Hinweis als "archived/redirected" markieren und danach Manifest/README auf nur die kanonischen Ziele bereinigen.
-
-3. **Optional als nächsten Schritt: automatisches Updaten von `last_reviewed`/`sync_status` via GitHub API-Job.**
-   - **Aktueller Stand:** CI-Validierung für das Manifest ist vorhanden, aber die Werte werden noch manuell gepflegt.
-   - **Wie fortsetzen:** Einen geplanten Workflow ergänzen, der über die GitHub API Commit-/Release-Aktivität prüft, daraus Status ableitet (`ACTIVE/STALE/DIVERGED`) und bei Änderungen automatisiert einen PR mit Manifest-Update erstellt.
+*Powered by sha0001000 & IrsanAI - 2026*
