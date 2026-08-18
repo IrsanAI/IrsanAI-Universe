@@ -1,6 +1,6 @@
 {
   "version": "3.0.0",
-  "last_updated": "2026-08-18T18:40:49Z",
+  "last_updated": "2026-08-18T19:29:09Z",
   "owner": "IrsanAI",
   "repositories": [
     {
@@ -14,7 +14,7 @@
       "docs_url": "https://irsanai.github.io/IrsanAI-Universe/",
       "pages_url": "https://irsanai.github.io/IrsanAI-Universe/",
       "pages_detected": true,
-      "last_pushed": "2026-08-18T17:29:39Z",
+      "last_pushed": "2026-08-18T18:40:56Z",
       "last_reviewed": "2026-08-18",
       "stars": 0,
       "language": "Python",
@@ -288,7 +288,7 @@
       "layer": "ingestion",
       "role": "Header-first anchor reader",
       "avatar": "assets/img/passfotos/irsanai-hfar-engine.png",
-      "sync_status": "REVIEW",
+      "sync_status": "STALE",
       "canonical": true
     },
     {
