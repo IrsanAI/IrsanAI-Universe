@@ -1,76 +1,112 @@
-# IrsanAI Universe | Central Command Hub 🌌
+# IrsanAI Universe — Resonance Engine
 
-[**Deutsch**](#deutsch) | [**English**](#english)
+[**Deutsch**](#deutsch) · [**English**](#english) · [**Live Dashboard**](https://irsanai.github.io/IrsanAI-Universe/)
+
+> **IrsanAI Universe** is the public map of an evolving human–AI resonance stack: protocols anchor meaning, agents move intent, systems route capability, and tools turn ideas into repeatable action.
+
+[Open the Resonance Engine](https://irsanai.github.io/IrsanAI-Universe/) · [Browse every repository on GitHub](https://github.com/IrsanAI)
+
+| Live snapshot | Value |
+|---|---:|
+| Repository nodes | 26 |
+| Connected GitHub Pages | 15 |
+| Community stars | 1 |
+| Manifest generated | `2026-08-18T16:30:17Z` |
 
 ---
 
 <a name="deutsch"></a>
 
-## 🇩🇪 Deutsch: IrsanAI Universe
+## Deutsch
 
-Willkommen im **IrsanAI Universe**, dem zentralen Orchestrierungs-Hub für den **Human-AI Resonance Stack**. Hier laufen alle Fäden unserer Protokolle, Agenten und Tools zusammen.
+Das Universe ist das **Aushängeschild und die lesbare Control Plane** des IrsanAI-Stacks. Die Landingpage verbindet aktuelle GitHub-Metadaten mit einer bewusst gekennzeichneten Heuristik: Der **Resonance Index** bewertet Aktualität, semantische Abdeckung und erkannte Pages-Verbindungen. Er ist ein Orientierungssignal, keine Aussage über Laufzeitgesundheit, Sicherheit oder wissenschaftliche Validierung.
 
-### 🎯 Unsere Vision
-Wir bauen nicht nur KI-Tools; wir erschaffen ein Ökosystem für **semantische Integrität** und **kognitive Resonanz**. Durch unsere Protokolle NTF, LRP und PDP eliminieren wir "Analytical Drift" und stellen sicher, dass der menschliche Intent über hunderte von KI-Interaktionsschritten hinweg zu 100% erhalten bleibt.
+Der Stack lässt sich als sechs Bewegungen lesen: **NTF verankert Bedeutung**, **LRP formt Antworten**, **PDP wechselt die Perspektive**, **ARIA bewegt Intent zwischen Agenten**, **VERA prüft Evidenz**, und **IS routet Capabilities**. Die übrigen Repositorys bilden die Infrastruktur, Werkzeuge, Simulationen und experimentellen Räume, in denen diese Grammatik praktisch wird.
 
-### 🛠 Der IrsanAI Stack (Die 15+ Säulen)
+### Vollständige Repository-Konstellation
 
-| Passfoto | Repository | Beschreibung | Status |
-| :---: | :--- | :--- | :--- |
-| <img src="docs/assets/img/passfotos/IrsanAI-Universe.png" width="64"> | [IrsanAI-Universe](https://github.com/IrsanAI/IrsanAI-Universe) | Der zentrale Hub und das Aushängeschild des gesamten Stacks. | 🟢 Live |
-| <img src="docs/assets/img/passfotos/NTF-v1.0.png" width="64"> | [NTF-v1.0](https://github.com/IrsanAI/NTF-v1.0) | NeuroToken Framework – Semantische Anker & Drift-Kontrolle. | 🟢 Live |
-| <img src="docs/assets/img/passfotos/LRP-v1.3.png" width="64"> | [LRP-v1.3](https://github.com/IrsanAI/LRP-v1.3) | LLM Response Protocol – Strukturierte Meta-Prompts. | 🟢 Live |
-| <img src="docs/assets/img/passfotos/IrsanAI-PDP-v2.0.png" width="64"> | [IrsanAI-PDP-v2.0](https://github.com/IrsanAI/IrsanAI-PDP-v2.0) | Perspective-Driven Protocol – Multi-Modell-Konsens. | 🟢 Live |
-| <img src="docs/assets/img/passfotos/IrsanAI-ARIA-Protocol.png" width="64"> | [IrsanAI-ARIA-Protocol](https://github.com/IrsanAI/IrsanAI-ARIA-Protocol) | Agent Reasoning & Intent Architecture – A2A Standard. | 🟢 v1.0 |
-| <img src="docs/assets/img/passfotos/mycelial-echo-forge.png" width="64"> | [mycelial-echo-forge](https://github.com/IrsanAI/mycelial-echo-forge) | Biologisch inspirierte, dezentrale KI-Architektur. | 🟡 v0.6 |
-| <img src="docs/assets/img/passfotos/IrsanAI-Void.png" width="64"> | [IrsanAI-Void](https://github.com/IrsanAI/IrsanAI-Void) | Psychologisches Survival-Game im Terminal. | 🟢 Live |
-| <img src="docs/assets/img/passfotos/TPM-Agent.png" width="64"> | [TPM-Agent](https://github.com/IrsanAI/TPM-Agent) | Black Hole Theory – Vorhersage in Hoch-Entropie-Daten. | 🟢 Live |
-| <img src="docs/assets/img/passfotos/irsanai-mom4ai-forge.png" width="64"> | [irsanai-mom4ai-forge](https://github.com/IrsanAI/irsanai-mom4ai-forge) | Evolutive Pipeline für neuronale Skelette (DAGs). | 🟢 Live |
-| <img src="docs/assets/img/passfotos/irsanai-hfar-engine.png" width="64"> | [irsanai-hfar-engine](https://github.com/IrsanAI/irsanai-hfar-engine) | Header-First Anchor Read – Token-sparende Lese-Engine. | 🟢 Live |
-| <img src="docs/assets/img/passfotos/IrsanAI-MindScape-3D.png" width="64"> | [IrsanAI-MindScape-3D](https://github.com/IrsanAI/IrsanAI-MindScape-3D) | 3D-Systemarchitektur & Heatmap-Entropie-Engine. | 🟢 Live |
-| <img src="docs/assets/img/passfotos/IrsanAI-Sata_Erase_Tool.png" width="64"> | [IrsanAI-Sata_Erase_Tool](https://github.com/IrsanAI/IrsanAI-Sata_Erase_Tool) | Professionelle Datenbereinigung mit 3D-Monitoring. | 🟢 Live |
-| <img src="docs/assets/img/passfotos/IrsanAI-dis-core.png" width="64"> | [IrsanAI-dis-core](https://github.com/IrsanAI/IrsanAI-dis-core) | Device Intelligence System – Autonomer Security Stack. | 🟢 v2.0 |
-| <img src="docs/assets/img/passfotos/IrsanAI-Forge.png" width="64"> | [IrsanAI-Forge](https://github.com/IrsanAI/IrsanAI-Forge) | Resonanz-gesteuerte GitHub-Schmiede für Intents. | 🟡 Beta |
-| <img src="docs/assets/img/passfotos/root-ascent-method.png" width="64"> | [root-ascent-method](https://github.com/IrsanAI/root-ascent-method) | Strukturierte Ursachenanalyse (Causal Ladder). | 🟢 v0.4 |
+Die folgende Tabelle wird durch den Manifest-Sync aktualisiert und listet **jedes öffentliche Repository der Organisation** auf. Das Passfoto ist die visuelle Kurzsignatur des jeweiligen Knotens.
 
-### 🚀 Live Dashboard
-Besuchen Sie unser interaktives Dashboard unter:  
-👉 **[irsanai.github.io/IrsanAI-Universe/](https://irsanai.github.io/IrsanAI-Universe/)**
+| Passfoto | Repository | Kategorie | Schicht | Architekturrolle | Kurzbeschreibung | Sync | Letzter Push | Page |
+|---|---|---|---|---|---|---|---|---|
+| <img src="docs/assets/img/passfotos/IrsanAI-Universe.png" alt="IrsanAI-Universe passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/IrsanAI-Universe) | Hub | orchestration | The central map of the stack | Zentraler Orchestrierungs-Hub für Protokolle, Agenten und Werkzeuge. | AKTIV | 2026-08-18T14:01:53Z | [Page](https://irsanai.github.io/IrsanAI-Universe/) |
+| <img src="docs/assets/img/passfotos/root-ascent-method.png" alt="root-ascent-method passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/root-ascent-method) | Tool | reasoning | Incident-to-root-cause ladder | Disziplinierte Ursachenanalyse vom konkreten Vorfall zum systemischen Hebel. | AKTIV | 2026-08-18T09:45:22Z | [Page](https://irsanai.github.io/root-ascent-method/) |
+| <img src="docs/assets/img/passfotos/irsanai-360.png" alt="irsanai-360 passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/irsanai-360) | System | cognition | Intent-centred cognitive system | Intent-zentriertes kognitives System als 360-Grad-Blick auf Aufgaben und Kontext. | AKTIV | 2026-08-08T20:45:07Z | — |
+| <img src="docs/assets/img/passfotos/NEXUS-Recover.png" alt="NEXUS-Recover passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/NEXUS-Recover) | Tool | recovery | Recovery and continuity node | Recovery-Knoten für Wiederherstellung, Kontinuität und robuste Übergaben. | AKTIV | 2026-07-30T10:55:45Z | — |
+| <img src="docs/assets/img/passfotos/IrsanAI-LiveShare.png" alt="IrsanAI-LiveShare passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/IrsanAI-LiveShare) | Tool | experience | Session-first live sharing | Session-first-Live-Sharing mit Tracking, sicheren Tokens und Viewer-Projektion. | AKTIV | 2026-07-29T06:42:24Z | — |
+| <img src="docs/assets/img/passfotos/IrsanAI-MetaFabric.png" alt="IrsanAI-MetaFabric passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/IrsanAI-MetaFabric) | Hub | control-plane | Capability and reflection control plane | Metakognitive Control Plane für Capabilities, Provider, Feedback und Reflexion. | AKTIV | 2026-07-24T23:09:53Z | — |
+| — | [Repository](https://github.com/IrsanAI/IrsanAI-IS) | System | routing | Capability inventory and loadout router | Inventory-System, das Modelle, Essenzen und Loadouts auf konkrete Aufgaben routet. | REVIEW | 2026-07-12T22:27:50Z | — |
+| <img src="docs/assets/img/passfotos/LRP-v1.3.png" alt="LRP-v1.3 passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/LRP-v1.3) | Protokoll | response | Structured LLM response contract | Strukturiert Intent, Aufgabe, Constraints und Ausgabe für belastbare LLM-Kommunikation. | REVIEW | 2026-06-25T02:06:42Z | [Page](https://irsanai.github.io/LRP-v1.3/) |
+| <img src="docs/assets/img/passfotos/IrsanAI-ARIA-Protocol.png" alt="IrsanAI-ARIA-Protocol passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/IrsanAI-ARIA-Protocol) | Protokoll | agent-network | Agent reasoning and intent architecture | Offener Standard für typisierte Agent-to-Agent-Kommunikation. | REVIEW | 2026-06-06T21:18:43Z | [Page](https://irsanai.github.io/IrsanAI-ARIA-Protocol/) |
+| <img src="docs/assets/img/passfotos/IrsanAI-dis-core.png" alt="IrsanAI-dis-core passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/IrsanAI-dis-core) | System | security | Device intelligence and anti-surveillance | Autonomer Security-Stack für gerätenahe Intelligenz und Anti-Surveillance. | REVIEW | 2026-06-04T22:01:52Z | — |
+| — | [Repository](https://github.com/IrsanAI/IrsanAI-VERA) | Agent | epistemics | Evidence, adversarial challenge, and belief update | Epistemische Engine für Evidenzketten, Red-Team-Prüfung und Bayes-Updates. | REVIEW | 2026-05-31T19:03:41Z | — |
+| — | [Repository](https://github.com/IrsanAI/IrsanAI-Nexus-Server) | Hub | infrastructure | Encrypted cross-LLM intelligence network | Verschlüsselter Nexus für den Austausch zwischen unterschiedlichen LLM-Instanzen. | REVIEW | 2026-04-27T23:15:40Z | [Page](https://irsanai.github.io/IrsanAI-Nexus-Server/) |
+| <img src="docs/assets/img/passfotos/irsanai-hfar-engine.png" alt="irsanai-hfar-engine passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/irsanai-hfar-engine) | Tool | ingestion | Header-first anchor reader | Token-sparende Lese-Engine, die zuerst Struktur und Anker extrahiert. | REVIEW | 2026-04-19T19:17:31Z | [Page](https://irsanai.github.io/irsanai-hfar-engine/) |
+| <img src="docs/assets/img/passfotos/irsanai-mom4ai-forge.png" alt="irsanai-mom4ai-forge passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/irsanai-mom4ai-forge) | Tool | evolution | Evolutive neural skeleton forge | Forge für evolutive neuronale Skelette und gerichtete Entwicklungsgraphen. | RUHIG | 2026-04-12T00:20:10Z | [Page](https://irsanai.github.io/irsanai-mom4ai-forge/) |
+| <img src="docs/assets/img/passfotos/IrsanAI-MindScape-3D.png" alt="IrsanAI-MindScape-3D passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/IrsanAI-MindScape-3D) | Tool | visualization | Spatial cognitive architecture | Interaktive 3D-Visualisierung von Systemarchitektur, Entropie und kognitiven Mustern. | RUHIG | 2026-04-07T20:57:19Z | [Page](https://irsanai.github.io/IrsanAI-MindScape-3D/) |
+| <img src="docs/assets/img/passfotos/NTF-v1.0.png" alt="NTF-v1.0 passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/NTF-v1.0) | Protokoll | semantic-anchor | NeuroToken semantic anchoring | Semantische Anker und Drift-Kontrolle für stabile Begriffe über lange Prozesse. | RUHIG | 2026-03-15T14:46:48Z | [Page](https://irsanai.github.io/NTF-v1.0/) |
+| <img src="docs/assets/img/passfotos/mycelial-echo-forge.png" alt="mycelial-echo-forge passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/mycelial-echo-forge) | Agent | emergence | Biologically inspired agentic architecture | Biologisch inspirierte, dezentrale Architektur für emergentes Agentenverhalten. | RUHIG | 2026-03-15T14:20:26Z | [Page](https://irsanai.github.io/mycelial-echo-forge/) |
+| — | [Repository](https://github.com/IrsanAI/irsanai-nexus) | Tool | repository-intelligence | Repository analysis and insight console | Repository-Intelligence-Plattform mit Analyse-API, Reports und Insight Console. | RUHIG | 2026-03-15T06:46:31Z | [Page](https://irsanai.github.io/irsanai-nexus/) |
+| <img src="docs/assets/img/passfotos/IrsanAI-Void.png" alt="IrsanAI-Void passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/IrsanAI-Void) | Agent | simulation | Psychological survival simulation | Terminal-Survivalspiel, das Mustererkennung, Paranoia und Kooperation erfahrbar macht. | RUHIG | 2026-03-10T17:24:16Z | [Page](https://irsanai.github.io/IrsanAI-Void/) |
+| <img src="docs/assets/img/passfotos/TPM-Agent.png" alt="TPM-Agent passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/TPM-Agent) | Agent | prediction | High-entropy signal extraction | Agent für das Herauslösen der kleinsten wesentlichen Information aus chaotischen Daten. | RUHIG | 2026-03-05T11:35:14Z | — |
+| — | [Repository](https://github.com/IrsanAI/IrsanAI-Forge) | Tool | activation | Intent-to-agent activation forge | Aktive Schmiede für Intent-Binding, LRP-Prompts und Agenten-Handoffs. | RUHIG | 2026-02-26T16:12:58Z | [Page](https://irsanai.github.io/IrsanAI-Forge/) |
+| <img src="docs/assets/img/passfotos/IrsanAI-PDP-v2.0.png" alt="IrsanAI-PDP-v2.0 passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/IrsanAI-PDP-v2.0) | Protokoll | perspective | Perspective-driven logic factory | Perspektiven-Linsen für Manager-, Dev-, Creative- und Analysten-Sicht. | RUHIG | 2026-02-23T23:58:30Z | [Page](https://irsanai.github.io/IrsanAI-PDP-v2.0/) |
+| — | [Repository](https://github.com/IrsanAI/IrsanAI-NLM-Neural-Link-Messenger) | Tool | agent-network | Decentralized agent-to-agent messenger | Dezentraler Messenger mit DID-Registry, LRP-Integration und strukturierten Nachrichten. | RUHIG | 2026-02-23T11:25:48Z | — |
+| <img src="docs/assets/img/passfotos/IrsanAI-RP-v1.0.png" alt="IrsanAI-RP-v1.0 passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/IrsanAI-RP-v1.0) | Protokoll | handshake | Three-way resonance handshake | 3-Way-Handshake für unmittelbare kognitive Kopplung zwischen Mensch und LLM. | RUHIG | 2026-02-23T08:22:37Z | [Page](https://irsanai.github.io/IrsanAI-RP-v1.0/) |
+| — | [Repository](https://github.com/IrsanAI/RKP-v2.0-) | Protokoll | prediction | Resonant kinetic prediction | Experimenteller Protokollknoten für resonante Bewegungs- und Verlaufsvorhersage. | RUHIG | 2026-02-18T09:52:07Z | — |
+| <img src="docs/assets/img/passfotos/IrsanAI-Sata_Erase_Tool.png" alt="IrsanAI-Sata_Erase_Tool passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/IrsanAI-Sata_Erase_Tool) | Tool | sanitization | Auditable data sanitization | Auditierbare Datenbereinigung mit Live-I/O-Visualisierung und Compliance-Report. | RUHIG | 2025-12-19T19:05:01Z | — |
+
+### Lesen und Mitwirken
+
+Beginne auf dem [Live Dashboard](https://irsanai.github.io/IrsanAI-Universe/), wechsle zwischen Karten- und Konstellationsansicht und starte den lokalen Signal-Scan. Für technische Details, Spezifikationen und die Automatisierung ist dieses [Universe-Repository](https://github.com/IrsanAI/IrsanAI-Universe) die maßgebliche Quelle.
 
 ---
 
 <a name="english"></a>
 
-## 🇬🇧 English: IrsanAI Universe
+## English
 
-Welcome to the **IrsanAI Universe**, the central orchestration hub for the **Human-AI Resonance Stack**. This is where all threads of our protocols, agents, and tools converge.
+The Universe is the **flagship and readable control plane** of the IrsanAI stack. Its landing page combines current GitHub metadata with an explicitly labelled heuristic: the **Resonance Index** scores freshness, semantic coverage, and detected Pages connections. It is a navigation signal, not a claim about runtime health, security, or scientific validation.
 
-### 🎯 Our Vision
-We don't just build AI tools; we create an ecosystem for **semantic integrity** and **cognitive resonance**. Through our NTF, LRP, and PDP protocols, we eliminate analytical drift and ensure that human intent remains 100% preserved across hundreds of AI interaction steps.
+The stack can be read as six movements: **NTF anchors meaning**, **LRP shapes responses**, **PDP changes the lens**, **ARIA moves intent between agents**, **VERA challenges evidence**, and **IS routes capability**. The remaining repositories provide infrastructure, tools, simulations, and experimental spaces where this grammar becomes practical.
 
-### 🛠 The IrsanAI Stack (The 15+ Pillars)
+### Complete repository constellation
 
-| Passfoto | Repository | Description | Status |
-| :---: | :--- | :--- | :--- |
-| <img src="docs/assets/img/passfotos/IrsanAI-Universe.png" width="64"> | [IrsanAI-Universe](https://github.com/IrsanAI/IrsanAI-Universe) | The central hub and flagship of the entire stack. | 🟢 Live |
-| <img src="docs/assets/img/passfotos/NTF-v1.0.png" width="64"> | [NTF-v1.0](https://github.com/IrsanAI/NTF-v1.0) | NeuroToken Framework – Semantic Anchors & Drift Control. | 🟢 Live |
-| <img src="docs/assets/img/passfotos/LRP-v1.3.png" width="64"> | [LRP-v1.3](https://github.com/IrsanAI/LRP-v1.3) | LLM Response Protocol – Structured Meta-Prompts. | 🟢 Live |
-| <img src="docs/assets/img/passfotos/IrsanAI-PDP-v2.0.png" width="64"> | [IrsanAI-PDP-v2.0](https://github.com/IrsanAI/IrsanAI-PDP-v2.0) | Perspective-Driven Protocol – Multi-Model Consensus. | 🟢 Live |
-| <img src="docs/assets/img/passfotos/IrsanAI-ARIA-Protocol.png" width="64"> | [IrsanAI-ARIA-Protocol](https://github.com/IrsanAI/IrsanAI-ARIA-Protocol) | Agent Reasoning & Intent Architecture – A2A Standard. | 🟢 v1.0 |
-| <img src="docs/assets/img/passfotos/mycelial-echo-forge.png" width="64"> | [mycelial-echo-forge](https://github.com/IrsanAI/mycelial-echo-forge) | Biologically inspired, decentralized AI architecture. | 🟡 v0.6 |
-| <img src="docs/assets/img/passfotos/IrsanAI-Void.png" width="64"> | [IrsanAI-Void](https://github.com/IrsanAI/IrsanAI-Void) | Psychological survival game in the terminal. | 🟢 Live |
-| <img src="docs/assets/img/passfotos/TPM-Agent.png" width="64"> | [TPM-Agent](https://github.com/IrsanAI/TPM-Agent) | Black Hole Theory – Prediction in high-entropy data. | 🟢 Live |
-| <img src="docs/assets/img/passfotos/irsanai-mom4ai-forge.png" width="64"> | [irsanai-mom4ai-forge](https://github.com/IrsanAI/irsanai-mom4ai-forge) | Evolutive pipeline for neural skeletons (DAGs). | 🟢 Live |
-| <img src="docs/assets/img/passfotos/irsanai-hfar-engine.png" width="64"> | [irsanai-hfar-engine](https://github.com/IrsanAI/irsanai-hfar-engine) | Header-First Anchor Read – Token-saving read engine. | 🟢 Live |
-| <img src="docs/assets/img/passfotos/IrsanAI-MindScape-3D.png" width="64"> | [IrsanAI-MindScape-3D](https://github.com/IrsanAI/IrsanAI-MindScape-3D) | 3D system architecture & heatmap entropy engine. | 🟢 Live |
-| <img src="docs/assets/img/passfotos/IrsanAI-Sata_Erase_Tool.png" width="64"> | [IrsanAI-Sata_Erase_Tool](https://github.com/IrsanAI/IrsanAI-Sata_Erase_Tool) | Professional data sanitization with 3D monitoring. | 🟢 Live |
-| <img src="docs/assets/img/passfotos/IrsanAI-dis-core.png" width="64"> | [IrsanAI-dis-core](https://github.com/IrsanAI/IrsanAI-dis-core) | Device Intelligence System – Autonomous security stack. | 🟢 v2.0 |
-| <img src="docs/assets/img/passfotos/IrsanAI-Forge.png" width="64"> | [IrsanAI-Forge](https://github.com/IrsanAI/IrsanAI-Forge) | Resonance-powered GitHub forge for intents. | 🟡 Beta |
-| <img src="docs/assets/img/passfotos/root-ascent-method.png" width="64"> | [root-ascent-method](https://github.com/IrsanAI/root-ascent-method) | Structured root cause analysis (Causal Ladder). | 🟢 v0.4 |
+The table below is regenerated by the manifest sync and lists **every public repository in the organization**. Each passfoto is a compact visual signature for its node.
 
-### 🚀 Live Dashboard
-Visit our interactive dashboard at:  
-👉 **[irsanai.github.io/IrsanAI-Universe/](https://irsanai.github.io/IrsanAI-Universe/)**
+| Passfoto | Repository | Category | Layer | Architecture role | Short description | Sync | Last push | Page |
+|---|---|---|---|---|---|---|---|---|
+| <img src="docs/assets/img/passfotos/IrsanAI-Universe.png" alt="IrsanAI-Universe passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/IrsanAI-Universe) | Hub | orchestration | The central map of the stack | Central orchestration hub for protocols, agents, and tools. | ACTIVE | 2026-08-18T14:01:53Z | [Page](https://irsanai.github.io/IrsanAI-Universe/) |
+| <img src="docs/assets/img/passfotos/root-ascent-method.png" alt="root-ascent-method passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/root-ascent-method) | Tool | reasoning | Incident-to-root-cause ladder | Disciplined causal analysis from concrete incidents to systemic levers. | ACTIVE | 2026-08-18T09:45:22Z | [Page](https://irsanai.github.io/root-ascent-method/) |
+| <img src="docs/assets/img/passfotos/irsanai-360.png" alt="irsanai-360 passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/irsanai-360) | System | cognition | Intent-centred cognitive system | Intent-centred cognitive system for a 360-degree view of tasks and context. | ACTIVE | 2026-08-08T20:45:07Z | — |
+| <img src="docs/assets/img/passfotos/NEXUS-Recover.png" alt="NEXUS-Recover passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/NEXUS-Recover) | Tool | recovery | Recovery and continuity node | Recovery node for restoration, continuity, and resilient handoffs. | ACTIVE | 2026-07-30T10:55:45Z | — |
+| <img src="docs/assets/img/passfotos/IrsanAI-LiveShare.png" alt="IrsanAI-LiveShare passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/IrsanAI-LiveShare) | Tool | experience | Session-first live sharing | Session-first live sharing with tracking, secure tokens, and viewer projections. | ACTIVE | 2026-07-29T06:42:24Z | — |
+| <img src="docs/assets/img/passfotos/IrsanAI-MetaFabric.png" alt="IrsanAI-MetaFabric passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/IrsanAI-MetaFabric) | Hub | control-plane | Capability and reflection control plane | Metacognitive control plane for capabilities, providers, feedback, and reflection. | ACTIVE | 2026-07-24T23:09:53Z | — |
+| — | [Repository](https://github.com/IrsanAI/IrsanAI-IS) | System | routing | Capability inventory and loadout router | Inventory system routing models, essences, and loadouts to concrete tasks. | REVIEW | 2026-07-12T22:27:50Z | — |
+| <img src="docs/assets/img/passfotos/LRP-v1.3.png" alt="LRP-v1.3 passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/LRP-v1.3) | Protocol | response | Structured LLM response contract | Structures intent, task, constraints, and output for reliable LLM communication. | REVIEW | 2026-06-25T02:06:42Z | [Page](https://irsanai.github.io/LRP-v1.3/) |
+| <img src="docs/assets/img/passfotos/IrsanAI-ARIA-Protocol.png" alt="IrsanAI-ARIA-Protocol passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/IrsanAI-ARIA-Protocol) | Protocol | agent-network | Agent reasoning and intent architecture | Open standard for typed agent-to-agent communication. | REVIEW | 2026-06-06T21:18:43Z | [Page](https://irsanai.github.io/IrsanAI-ARIA-Protocol/) |
+| <img src="docs/assets/img/passfotos/IrsanAI-dis-core.png" alt="IrsanAI-dis-core passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/IrsanAI-dis-core) | System | security | Device intelligence and anti-surveillance | Autonomous security stack for device intelligence and anti-surveillance. | REVIEW | 2026-06-04T22:01:52Z | — |
+| — | [Repository](https://github.com/IrsanAI/IrsanAI-VERA) | Agent | epistemics | Evidence, adversarial challenge, and belief update | Epistemic engine for evidence chains, red-team challenge, and Bayesian updates. | REVIEW | 2026-05-31T19:03:41Z | — |
+| — | [Repository](https://github.com/IrsanAI/IrsanAI-Nexus-Server) | Hub | infrastructure | Encrypted cross-LLM intelligence network | Encrypted nexus for exchange between different LLM instances. | REVIEW | 2026-04-27T23:15:40Z | [Page](https://irsanai.github.io/IrsanAI-Nexus-Server/) |
+| <img src="docs/assets/img/passfotos/irsanai-hfar-engine.png" alt="irsanai-hfar-engine passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/irsanai-hfar-engine) | Tool | ingestion | Header-first anchor reader | Token-efficient reading engine that extracts structure and anchors first. | REVIEW | 2026-04-19T19:17:31Z | [Page](https://irsanai.github.io/irsanai-hfar-engine/) |
+| <img src="docs/assets/img/passfotos/irsanai-mom4ai-forge.png" alt="irsanai-mom4ai-forge passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/irsanai-mom4ai-forge) | Tool | evolution | Evolutive neural skeleton forge | Forge for evolutive neural skeletons and directed development graphs. | QUIET | 2026-04-12T00:20:10Z | [Page](https://irsanai.github.io/irsanai-mom4ai-forge/) |
+| <img src="docs/assets/img/passfotos/IrsanAI-MindScape-3D.png" alt="IrsanAI-MindScape-3D passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/IrsanAI-MindScape-3D) | Tool | visualization | Spatial cognitive architecture | Interactive 3D visualization of system architecture, entropy, and cognitive patterns. | QUIET | 2026-04-07T20:57:19Z | [Page](https://irsanai.github.io/IrsanAI-MindScape-3D/) |
+| <img src="docs/assets/img/passfotos/NTF-v1.0.png" alt="NTF-v1.0 passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/NTF-v1.0) | Protocol | semantic-anchor | NeuroToken semantic anchoring | Semantic anchors and drift control for stable concepts across long processes. | QUIET | 2026-03-15T14:46:48Z | [Page](https://irsanai.github.io/NTF-v1.0/) |
+| <img src="docs/assets/img/passfotos/mycelial-echo-forge.png" alt="mycelial-echo-forge passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/mycelial-echo-forge) | Agent | emergence | Biologically inspired agentic architecture | Biologically inspired decentralized architecture for emergent agent behaviour. | QUIET | 2026-03-15T14:20:26Z | [Page](https://irsanai.github.io/mycelial-echo-forge/) |
+| — | [Repository](https://github.com/IrsanAI/irsanai-nexus) | Tool | repository-intelligence | Repository analysis and insight console | Repository intelligence platform with analysis API, reports, and insight console. | QUIET | 2026-03-15T06:46:31Z | [Page](https://irsanai.github.io/irsanai-nexus/) |
+| <img src="docs/assets/img/passfotos/IrsanAI-Void.png" alt="IrsanAI-Void passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/IrsanAI-Void) | Agent | simulation | Psychological survival simulation | Terminal survival game making pattern recognition, paranoia, and cooperation tangible. | QUIET | 2026-03-10T17:24:16Z | [Page](https://irsanai.github.io/IrsanAI-Void/) |
+| <img src="docs/assets/img/passfotos/TPM-Agent.png" alt="TPM-Agent passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/TPM-Agent) | Agent | prediction | High-entropy signal extraction | Agent for extracting the smallest essential signal from chaotic data. | QUIET | 2026-03-05T11:35:14Z | — |
+| — | [Repository](https://github.com/IrsanAI/IrsanAI-Forge) | Tool | activation | Intent-to-agent activation forge | Active forge for intent binding, LRP prompts, and agent handoffs. | QUIET | 2026-02-26T16:12:58Z | [Page](https://irsanai.github.io/IrsanAI-Forge/) |
+| <img src="docs/assets/img/passfotos/IrsanAI-PDP-v2.0.png" alt="IrsanAI-PDP-v2.0 passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/IrsanAI-PDP-v2.0) | Protocol | perspective | Perspective-driven logic factory | Perspective lenses for manager, developer, creative, and analyst views. | QUIET | 2026-02-23T23:58:30Z | [Page](https://irsanai.github.io/IrsanAI-PDP-v2.0/) |
+| — | [Repository](https://github.com/IrsanAI/IrsanAI-NLM-Neural-Link-Messenger) | Tool | agent-network | Decentralized agent-to-agent messenger | Decentralized messenger with DID registry, LRP integration, and structured messages. | QUIET | 2026-02-23T11:25:48Z | — |
+| <img src="docs/assets/img/passfotos/IrsanAI-RP-v1.0.png" alt="IrsanAI-RP-v1.0 passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/IrsanAI-RP-v1.0) | Protocol | handshake | Three-way resonance handshake | Three-way handshake for immediate cognitive coupling between human and LLM. | QUIET | 2026-02-23T08:22:37Z | [Page](https://irsanai.github.io/IrsanAI-RP-v1.0/) |
+| — | [Repository](https://github.com/IrsanAI/RKP-v2.0-) | Protocol | prediction | Resonant kinetic prediction | Experimental protocol node for resonant kinetic and trajectory prediction. | QUIET | 2026-02-18T09:52:07Z | — |
+| <img src="docs/assets/img/passfotos/IrsanAI-Sata_Erase_Tool.png" alt="IrsanAI-Sata_Erase_Tool passfoto" width="52" height="52"> | [Repository](https://github.com/IrsanAI/IrsanAI-Sata_Erase_Tool) | Tool | sanitization | Auditable data sanitization | Auditable data sanitization with live I/O visualization and compliance reporting. | QUIET | 2025-12-19T19:05:01Z | — |
+
+### Read and contribute
+
+Start with the [Live Dashboard](https://irsanai.github.io/IrsanAI-Universe/), switch between card and constellation views, and run the local signal scan. For technical details, specifications, and automation, the [Universe repository](https://github.com/IrsanAI/IrsanAI-Universe) is the canonical source.
 
 ---
-*Powered by sha0001000 & IrsanAI - 2026*
+
+*Generated from `docs/repo_manifest.json` · manifest v3.0.0 · IrsanAI Universe*

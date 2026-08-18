@@ -2,21 +2,26 @@ name: IrsanAI Universe Sync
 
 on:
   schedule:
-    - cron: '0 * * * *' # Jede Stunde
+    - cron: '0 * * * *'
+  workflow_dispatch:
+  repository_dispatch:
+    types:
+      - repo-workflow-completed
+      - repository-updated
   push:
     branches:
       - main
     paths:
-      - "spec/repo_manifest.json"
-      - "scripts/generate_manifest.py"
-  workflow_dispatch: # Manuelle Ausführung ermöglichen
+      - 'spec/repo_manifest.json'
+      - 'scripts/generate_manifest.py'
+      - 'scripts/generate_readme.py'
+
+permissions:
+  contents: write
 
 jobs:
   sync-repos:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    
     steps:
       - name: Checkout Universe
         uses: actions/checkout@v4
@@ -26,21 +31,32 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Generate Manifest
+      - name: Generate live repository manifest
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          python3 scripts/generate_manifest.py
+        run: python3 scripts/generate_manifest.py
 
-      - name: Validate Manifest
+      - name: Validate manifest contract
+        run: python3 scripts/validate_repo_manifest.py
+
+      - name: Generate bilingual flagship README
+        run: python3 scripts/generate_readme.py
+
+      - name: Commit and push synchronized artifacts
         run: |
-          if [ -f scripts/validate_repo_manifest.py ]; then
-            python3 scripts/validate_repo_manifest.py
+          git config --local user.email 'action@github.com'
+          git config --local user.name 'IrsanAI Universe Sync'
+          git add README.md docs/repo_manifest.json spec/repo_manifest.json
+          if git diff --cached --quiet; then
+            echo 'Universe already synchronized.'
+          else
+            git commit -m 'chore: synchronize repository constellation [skip ci]'
+            git push
           fi
 
-      - name: Commit and Push changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add docs/repo_manifest.json spec/repo_manifest.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update repository manifest [skip ci]" && git push)
+# Other IrsanAI repositories can notify this workflow immediately after a build:
+# gh api repos/IrsanAI/IrsanAI-Universe/dispatches \
+#   -f event_type=repo-workflow-completed \
+#   -F client_payload[repository]="$GITHUB_REPOSITORY" \
+#   -F client_payload[run_id]="$GITHUB_RUN_ID"
+# The hourly schedule remains the safety net when no dispatch secret is configured.

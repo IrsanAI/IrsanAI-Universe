@@ -1,69 +1,108 @@
-<!DOCTYPE html>
-<html lang="de">
+<!doctype html>
+<html lang="de" data-lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IrsanAI Universe | Central Hub</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" type="image/png" href="https://github.com/IrsanAI.png">
-    <meta name="description" content="Central hub for IrsanAI protocols: LRP, PDP, NTF, RKP – Human-AI Resonance Stack">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IrsanAI Universe — Resonance Engine</title>
+  <meta name="description" content="The IrsanAI Universe: an evidence-aware map of protocols, agents, systems, and tools for human-AI resonance.">
+  <meta name="theme-color" content="#07101f">
+  <meta property="og:title" content="IrsanAI Universe — Resonance Engine">
+  <meta property="og:description" content="Explore the complete IrsanAI repository constellation, its architecture layers, and live synchronization state.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/png" href="https://github.com/IrsanAI.png">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="lang-switcher">
-        <button class="lang-btn active" data-lang="de">DE</button>
-        <button class="lang-btn" data-lang="en">EN</button>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="https://github.com/IrsanAI" target="_blank" rel="noreferrer" aria-label="IrsanAI GitHub profile">
+      <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span><strong>IRSANAI</strong><small>UNIVERSE / 03</small></span>
+    </a>
+    <nav class="top-nav" aria-label="Primary navigation">
+      <a href="#explore" data-i18n="nav_explore">Explorer</a>
+      <a href="#architecture" data-i18n="nav_architecture">Architecture</a>
+      <a href="#scan" data-i18n="nav_scan">Signal scan</a>
+      <a href="https://github.com/IrsanAI/IrsanAI-Universe" target="_blank" rel="noreferrer" data-i18n="nav_source">Source</a>
+    </nav>
+    <div class="header-actions">
+      <span class="sync-chip"><i class="status-dot"></i><span data-i18n="sync_live">Live manifest</span></span>
+      <div class="lang-switcher" role="group" aria-label="Language">
+        <button class="lang-btn active" data-lang="de" type="button">DE</button>
+        <button class="lang-btn" data-lang="en" type="button">EN</button>
+      </div>
     </div>
+  </header>
 
-    <header>
-        <div class="logo-text">
-██╗██████╗ ███████╗ █████╗ ███╗   ██╗ █████╗ ██╗
-██║██╔══██╗██╔════╝██╔══██╗████╗  ██║██╔══██╗██║
-██║██████╔╝███████╗███████║██╔██╗ ██║███████║██║
-██║██╔══██╗╚════██║██╔══██║██║╚██╗██║██╔══██║██║
-██║██║  ██║███████║██║  ██║██║ ╚████║██║  ██║██║
-╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="hero_eyebrow">A living map of human–AI resonance</span></p>
+        <h1 id="hero-title"><span data-i18n="hero_title_a">From intent</span><br><em data-i18n="hero_title_b">to constellation.</em></h1>
+        <p class="hero-lede" data-i18n="hero_lede">The IrsanAI Universe is not a list of repositories. It is an evolving system of protocols, agents, evidence loops, and tools designed to keep meaning intact while intelligence moves.</p>
+        <div class="hero-actions">
+          <button class="primary-btn" id="scan-button" type="button"><span class="btn-pulse"></span><span data-i18n="run_scan">Run resonance scan</span><kbd>R</kbd></button>
+          <a class="secondary-btn" href="#explore" data-i18n="explore_stack">Explore the stack</a>
         </div>
-        <h1>IrsanAI Universe</h1>
-        <p class="subtitle">Spec-First Multi-Agent Resonance Framework. Der zentrale Hub für alle IrsanAI Protokolle und Tools.</p>
-    </header>
-
-    <div class="controls">
-        <input type="text" id="search-box" class="search-box" placeholder="Projekte durchsuchen...">
-        <div class="filter-btns">
-            <button class="filter-btn active" data-filter="all">Alle</button>
-            <button class="filter-btn" data-filter="hub">Hub</button>
-            <button class="filter-btn" data-filter="protocol">Protokolle</button>
-            <button class="filter-btn" data-filter="tool">Tools</button>
-            <button class="filter-btn" data-filter="agent">Agenten</button>
+        <p class="hero-note"><span class="note-icon">↳</span><span data-i18n="hero_note">A transparent, heuristic view — not a claim of runtime health or certainty.</span></p>
+      </div>
+      <div class="hero-instrument" aria-label="Resonance index instrument">
+        <div class="instrument-top"><span class="micro-label" data-i18n="instrument_label">Resonance index</span><span class="instrument-state" id="instrument-state">—</span></div>
+        <div class="pulse-orb" id="pulse-orb"><div class="orb-ring ring-one"></div><div class="orb-ring ring-two"></div><div class="orb-core"><strong id="pulse-score">--</strong><span>/ 100</span></div></div>
+        <div class="instrument-caption"><strong id="pulse-label" data-i18n="calculating">Calculating signal…</strong><span id="pulse-caption" data-i18n="instrument_caption">A composite of freshness, semantic coverage, and connected Pages.</span></div>
+        <div class="factor-list">
+          <div class="factor"><span data-i18n="factor_freshness">Freshness</span><span class="factor-value" id="factor-freshness-value">—</span><div class="factor-track"><i id="factor-freshness"></i></div></div>
+          <div class="factor"><span data-i18n="factor_semantic">Semantic coverage</span><span class="factor-value" id="factor-semantic-value">—</span><div class="factor-track"><i id="factor-semantic"></i></div></div>
+          <div class="factor"><span data-i18n="factor_pages">Page connections</span><span class="factor-value" id="factor-pages-value">—</span><div class="factor-track"><i id="factor-pages"></i></div></div>
         </div>
-    </div>
+      </div>
+    </section>
 
-    <main>
-        <section class="stats-bar">
-            <div class="stat-item">
-                <span class="stat-value" id="total-repos">...</span>
-                <span class="stat-label">Repositories</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-value" id="total-stars">...</span>
-                <span class="stat-label">Sterne</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-value" id="last-update-time">...</span>
-                <span class="stat-label">Letztes Update</span>
-            </div>
-        </section>
+    <section class="metric-rail" aria-label="Universe metrics">
+      <div class="metric"><span class="metric-value" id="total-repos">—</span><span class="metric-label" data-i18n="metric_nodes">nodes in constellation</span></div>
+      <div class="metric"><span class="metric-value" id="active-repos">—</span><span class="metric-label" data-i18n="metric_active">active in 30 days</span></div>
+      <div class="metric"><span class="metric-value" id="total-stars">—</span><span class="metric-label" data-i18n="metric_stars">community stars</span></div>
+      <div class="metric metric-wide"><span class="metric-label" data-i18n="metric_synced">manifest synchronized</span><span class="metric-value metric-date" id="last-update-time">—</span><span class="metric-sub" id="manifest-age">—</span></div>
+    </section>
 
-        <section id="repo-grid" class="repo-grid">
-            <!-- Repositories werden per JS geladen -->
-        </section>
-    </main>
+    <section class="architecture-section" id="architecture" aria-labelledby="architecture-title">
+      <div class="section-heading compact-heading"><div><p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="architecture_eyebrow">The operating model</span></p><h2 id="architecture-title" data-i18n="architecture_title">A stack that can observe itself.</h2></div><p class="section-aside" data-i18n="architecture_aside">Protocols create the grammar. Agents create movement. Tools create leverage. The Universe makes the relationships visible.</p></div>
+      <div class="architecture-flow" role="list">
+        <button class="arch-node node-ntf" data-layer="semantic-anchor" type="button" role="listitem"><span class="arch-index">01</span><strong>NTF</strong><small data-i18n="arch_ntf">anchor meaning</small></button>
+        <span class="flow-arrow" aria-hidden="true">→</span>
+        <button class="arch-node node-lrp" data-layer="response" type="button" role="listitem"><span class="arch-index">02</span><strong>LRP</strong><small data-i18n="arch_lrp">shape response</small></button>
+        <span class="flow-arrow" aria-hidden="true">→</span>
+        <button class="arch-node node-pdp" data-layer="perspective" type="button" role="listitem"><span class="arch-index">03</span><strong>PDP</strong><small data-i18n="arch_pdp">change the lens</small></button>
+        <span class="flow-arrow" aria-hidden="true">→</span>
+        <button class="arch-node node-aria" data-layer="agent-network" type="button" role="listitem"><span class="arch-index">04</span><strong>ARIA</strong><small data-i18n="arch_aria">move between agents</small></button>
+        <span class="flow-arrow" aria-hidden="true">→</span>
+        <button class="arch-node node-vera" data-layer="epistemics" type="button" role="listitem"><span class="arch-index">05</span><strong>VERA</strong><small data-i18n="arch_vera">challenge belief</small></button>
+        <span class="flow-arrow" aria-hidden="true">→</span>
+        <button class="arch-node node-is" data-layer="routing" type="button" role="listitem"><span class="arch-index">06</span><strong>IS</strong><small data-i18n="arch_is">route capability</small></button>
+      </div>
+      <p class="architecture-detail" id="architecture-detail" aria-live="polite"><span data-i18n="architecture_hint">Select a layer to focus the repository constellation.</span></p>
+    </section>
 
-    <footer>
-        <p>&copy; 2026 IrsanAI - Human-AI Resonance Stack</p>
-        <p>Powered by IrsanAI - sha0001000</p>
-    </footer>
+    <section class="explorer" id="explore" aria-labelledby="explore-title">
+      <div class="section-heading"><div><p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="explorer_eyebrow">Repository explorer</span></p><h2 id="explore-title" data-i18n="explorer_title">Every node. One readable system.</h2></div><div class="view-toggle" role="group" aria-label="View mode"><button class="view-btn active" data-view="cards" type="button" data-i18n="view_cards">Cards</button><button class="view-btn" data-view="map" type="button" data-i18n="view_map">Map</button></div></div>
+      <div class="explorer-toolbar">
+        <label class="search-wrap"><span class="search-icon">⌕</span><input id="search-box" type="search" autocomplete="off" placeholder="Search the constellation…" data-i18n-placeholder="search_placeholder"><kbd>/</kbd></label>
+        <div class="filter-btns" role="group" aria-label="Repository filters"><button class="filter-btn active" data-filter="all" type="button" data-i18n="filter_all">All</button><button class="filter-btn" data-filter="hub" type="button" data-i18n="filter_hub">Hubs</button><button class="filter-btn" data-filter="protocol" type="button" data-i18n="filter_protocol">Protocols</button><button class="filter-btn" data-filter="agent" type="button" data-i18n="filter_agent">Agents</button><button class="filter-btn" data-filter="tool" type="button" data-i18n="filter_tool">Tools</button><button class="filter-btn" data-filter="system" type="button" data-i18n="filter_system">Systems</button></div>
+        <label class="sort-wrap"><span data-i18n="sort_label">Sort</span><select id="sort-select"><option value="recent" data-i18n="sort_recent">Most recent</option><option value="resonance" data-i18n="sort_resonance">Resonance index</option><option value="stars" data-i18n="sort_stars">Stars</option><option value="name" data-i18n="sort_name">Name</option></select></label>
+      </div>
+      <div class="result-line"><span id="result-count">—</span> <span data-i18n="result_suffix">nodes visible</span><span class="result-separator">·</span><span data-i18n="last_source">source: GitHub manifest</span></div>
+      <div class="repo-grid" id="repo-grid" aria-live="polite"></div>
+      <div class="constellation" id="constellation" hidden aria-label="Interactive repository constellation"><div class="constellation-grid"></div><svg class="constellation-lines" id="constellation-lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"></svg><div class="map-core"><span>IA</span><small>UNIVERSE</small></div><div class="map-nodes" id="map-nodes"></div></div>
+      <div class="empty-state" id="empty-state" hidden><span>∅</span><strong data-i18n="empty_title">No matching nodes</strong><p data-i18n="empty_copy">Try another search term or reset the filter.</p></div>
+    </section>
 
-    <script src="assets/js/main.js"></script>
+    <section class="scan-section" id="scan" aria-labelledby="scan-title">
+      <div class="scan-copy"><p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="scan_eyebrow">The unexpected layer</span></p><h2 id="scan-title" data-i18n="scan_title">Let the constellation answer back.</h2><p data-i18n="scan_copy">A local, transparent scan turns repository metadata into a short narrative: what is moving, what is quiet, and where the next connection is most useful.</p><button class="secondary-btn" id="scan-button-secondary" type="button"><span data-i18n="run_scan_again">Run a fresh scan</span><kbd>R</kbd></button></div>
+      <div class="scan-console" id="scan-output" aria-live="polite"><div class="console-head"><span class="console-light"></span><span data-i18n="console_title">resonance://signal-console</span><span class="console-time" id="scan-time">—</span></div><div class="console-body" id="scan-body"><p class="console-placeholder" data-i18n="console_placeholder">Run the scan to reveal the current signal pattern.</p></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div><span class="footer-mark">◎</span><strong>IRSANAI UNIVERSE</strong><span data-i18n="footer_claim">— a readable interface for an evolving stack.</span></div><div class="footer-links"><a href="https://github.com/IrsanAI" target="_blank" rel="noreferrer">GitHub</a><a href="https://github.com/IrsanAI/IrsanAI-Universe" target="_blank" rel="noreferrer" data-i18n="footer_source">Source repository</a><span id="footer-version">manifest v—</span></div></footer>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
