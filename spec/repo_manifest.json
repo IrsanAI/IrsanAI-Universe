@@ -1,6 +1,6 @@
 {
   "version": "3.0.0",
-  "last_updated": "2026-08-19T10:44:56Z",
+  "last_updated": "2026-08-19T10:45:21Z",
   "owner": "IrsanAI",
   "repositories": [
     {
@@ -14,7 +14,7 @@
       "docs_url": "https://irsanai.github.io/IrsanAI-Universe/",
       "pages_url": "https://irsanai.github.io/IrsanAI-Universe/",
       "pages_detected": true,
-      "last_pushed": "2026-08-19T10:42:19Z",
+      "last_pushed": "2026-08-19T10:45:04Z",
       "last_reviewed": "2026-08-19",
       "stars": 0,
       "language": "Python",
@@ -48,30 +48,6 @@
       "layer": "reasoning",
       "role": "Incident-to-root-cause ladder",
       "avatar": "assets/img/passfotos/root-ascent-method.png",
-      "sync_status": "ACTIVE",
-      "canonical": true
-    },
-    {
-      "name": "irsanai-360",
-      "description": "Intent-zentriertes kognitives System für IrsanAI 360",
-      "description_de": "Intent-zentriertes kognitives System als 360-Grad-Blick auf Aufgaben und Kontext.",
-      "description_en": "Intent-centred cognitive system for a 360-degree view of tasks and context.",
-      "url": "https://github.com/IrsanAI/irsanai-360",
-      "source_url": "https://github.com/IrsanAI/irsanai-360",
-      "homepage": "https://irsanai.github.io/irsanai-360/",
-      "docs_url": "https://irsanai.github.io/irsanai-360/",
-      "pages_url": null,
-      "pages_detected": false,
-      "last_pushed": "2026-08-08T20:45:07Z",
-      "last_reviewed": "2026-08-19",
-      "stars": 0,
-      "language": null,
-      "visibility": "PRIVATE",
-      "is_fork": false,
-      "category": "system",
-      "layer": "cognition",
-      "role": "Intent-centred cognitive system",
-      "avatar": "assets/img/passfotos/irsanai-360.png",
       "sync_status": "ACTIVE",
       "canonical": true
     },
