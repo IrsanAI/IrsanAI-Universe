@@ -1,6 +1,6 @@
 {
   "version": "3.0.0",
-  "last_updated": "2026-08-19T10:42:12Z",
+  "last_updated": "2026-08-19T10:44:56Z",
   "owner": "IrsanAI",
   "repositories": [
     {
@@ -14,7 +14,7 @@
       "docs_url": "https://irsanai.github.io/IrsanAI-Universe/",
       "pages_url": "https://irsanai.github.io/IrsanAI-Universe/",
       "pages_detected": true,
-      "last_pushed": "2026-08-19T10:41:56Z",
+      "last_pushed": "2026-08-19T10:42:19Z",
       "last_reviewed": "2026-08-19",
       "stars": 0,
       "language": "Python",
@@ -48,6 +48,30 @@
       "layer": "reasoning",
       "role": "Incident-to-root-cause ladder",
       "avatar": "assets/img/passfotos/root-ascent-method.png",
+      "sync_status": "ACTIVE",
+      "canonical": true
+    },
+    {
+      "name": "irsanai-360",
+      "description": "Intent-zentriertes kognitives System für IrsanAI 360",
+      "description_de": "Intent-zentriertes kognitives System als 360-Grad-Blick auf Aufgaben und Kontext.",
+      "description_en": "Intent-centred cognitive system for a 360-degree view of tasks and context.",
+      "url": "https://github.com/IrsanAI/irsanai-360",
+      "source_url": "https://github.com/IrsanAI/irsanai-360",
+      "homepage": "https://irsanai.github.io/irsanai-360/",
+      "docs_url": "https://irsanai.github.io/irsanai-360/",
+      "pages_url": null,
+      "pages_detected": false,
+      "last_pushed": "2026-08-08T20:45:07Z",
+      "last_reviewed": "2026-08-19",
+      "stars": 0,
+      "language": null,
+      "visibility": "PRIVATE",
+      "is_fork": false,
+      "category": "system",
+      "layer": "cognition",
+      "role": "Intent-centred cognitive system",
+      "avatar": "assets/img/passfotos/irsanai-360.png",
       "sync_status": "ACTIVE",
       "canonical": true
     },
@@ -143,7 +167,7 @@
       "category": "system",
       "layer": "routing",
       "role": "Capability inventory and loadout router",
-      "avatar": null,
+      "avatar": "assets/img/passfotos/IrsanAI-IS.png",
       "sync_status": "REVIEW",
       "canonical": true
     },
@@ -239,7 +263,7 @@
       "category": "agent",
       "layer": "epistemics",
       "role": "Evidence, adversarial challenge, and belief update",
-      "avatar": null,
+      "avatar": "assets/img/passfotos/IrsanAI-VERA.png",
       "sync_status": "REVIEW",
       "canonical": true
     },
@@ -263,7 +287,7 @@
       "category": "hub",
       "layer": "infrastructure",
       "role": "Encrypted cross-LLM intelligence network",
-      "avatar": null,
+      "avatar": "assets/img/passfotos/IrsanAI-Nexus-Server.png",
       "sync_status": "REVIEW",
       "canonical": true
     },
@@ -407,7 +431,7 @@
       "category": "tool",
       "layer": "repository-intelligence",
       "role": "Repository analysis and insight console",
-      "avatar": null,
+      "avatar": "assets/img/passfotos/irsanai-nexus.png",
       "sync_status": "STALE",
       "canonical": true
     },
@@ -479,7 +503,7 @@
       "category": "tool",
       "layer": "activation",
       "role": "Intent-to-agent activation forge",
-      "avatar": null,
+      "avatar": "assets/img/passfotos/IrsanAI-Forge.png",
       "sync_status": "STALE",
       "canonical": true
     },
