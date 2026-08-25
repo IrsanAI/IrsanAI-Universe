@@ -1,6 +1,6 @@
 {
   "version": "3.0.0",
-  "last_updated": "2026-08-25T19:34:02Z",
+  "last_updated": "2026-08-25T20:31:30Z",
   "owner": "IrsanAI",
   "repositories": [
     {
@@ -14,7 +14,7 @@
       "docs_url": "https://irsanai.github.io/regulated-ai-wars/",
       "pages_url": "https://irsanai.github.io/regulated-ai-wars/",
       "pages_detected": true,
-      "last_pushed": "2026-08-25T18:54:06Z",
+      "last_pushed": "2026-08-25T20:13:15Z",
       "last_reviewed": "2026-08-25",
       "stars": 0,
       "language": "HTML",
@@ -38,7 +38,7 @@
       "docs_url": "https://irsanai.github.io/IrsanAI-Universe/",
       "pages_url": "https://irsanai.github.io/IrsanAI-Universe/",
       "pages_detected": true,
-      "last_pushed": "2026-08-25T18:42:07Z",
+      "last_pushed": "2026-08-25T19:34:07Z",
       "last_reviewed": "2026-08-25",
       "stars": 0,
       "language": "Python",
