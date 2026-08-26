@@ -1,6 +1,6 @@
 {
   "version": "3.0.0",
-  "last_updated": "2026-08-26T04:42:07Z",
+  "last_updated": "2026-08-26T05:06:51Z",
   "owner": "IrsanAI",
   "repositories": [
     {
@@ -14,7 +14,7 @@
       "docs_url": "https://irsanai.github.io/IrsanAI-Universe/",
       "pages_url": "https://irsanai.github.io/IrsanAI-Universe/",
       "pages_detected": true,
-      "last_pushed": "2026-08-26T03:07:24Z",
+      "last_pushed": "2026-08-26T05:06:39Z",
       "last_reviewed": "2026-08-26",
       "stars": 0,
       "language": "Python",
@@ -30,26 +30,26 @@
     {
       "name": "regulated-ai-wars",
       "description": "Strategic conquest map of regulated AI verticals - who is taking the hugh ground in Legal, Finance, Healthcare & more",
-      "description_de": "Strategic conquest map of regulated AI verticals - who is taking the hugh ground in Legal, Finance, Healthcare & more",
-      "description_en": "Strategic conquest map of regulated AI verticals - who is taking the hugh ground in Legal, Finance, Healthcare & more",
+      "description_de": "Strategische Eroberungskarte regulierter AI-Verticals — Macht, Territorien und menschliche Feedback-Schleife.",
+      "description_en": "Strategic conquest map of regulated AI verticals — power, territories, and the human feedback loop.",
       "url": "https://github.com/IrsanAI/regulated-ai-wars",
       "source_url": "https://github.com/IrsanAI/regulated-ai-wars",
       "homepage": "https://irsanai.github.io/regulated-ai-wars/",
       "docs_url": "https://irsanai.github.io/regulated-ai-wars/",
       "pages_url": "https://irsanai.github.io/regulated-ai-wars/",
       "pages_detected": true,
-      "last_pushed": "2026-08-25T21:31:24Z",
+      "last_pushed": "2026-08-26T05:05:50Z",
       "last_reviewed": "2026-08-26",
       "stars": 0,
       "language": "HTML",
       "visibility": "PUBLIC",
       "is_fork": false,
-      "category": "other",
-      "layer": "unmapped",
-      "role": "Repository in the IrsanAI stack",
+      "category": "tool",
+      "layer": "strategy-sensing",
+      "role": "Strategic map of regulated AI territorial contest",
       "avatar": null,
       "sync_status": "ACTIVE",
-      "canonical": false
+      "canonical": true
     },
     {
       "name": "root-ascent-method",
