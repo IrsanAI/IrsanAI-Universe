@@ -28,6 +28,11 @@ PROJECT_META: dict[str, dict[str, Any]] = {
         "de": "Zentraler Orchestrierungs-Hub für Protokolle, Agenten und Werkzeuge.",
         "en": "Central orchestration hub for protocols, agents, and tools.",
     },
+    "regulated-ai-wars": {
+        "category": "tool", "layer": "strategy-sensing", "role": "Strategic map of regulated AI territorial contest",
+        "de": "Strategische Eroberungskarte regulierter AI-Verticals — Macht, Territorien und menschliche Feedback-Schleife.",
+        "en": "Strategic conquest map of regulated AI verticals — power, territories, and the human feedback loop.",
+    },
     "root-ascent-method": {
         "category": "tool", "layer": "reasoning", "role": "Incident-to-root-cause ladder",
         "de": "Disziplinierte Ursachenanalyse vom konkreten Vorfall zum systemischen Hebel.",
