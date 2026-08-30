@@ -1,6 +1,6 @@
 {
   "version": "3.0.0",
-  "last_updated": "2026-08-30T10:20:21Z",
+  "last_updated": "2026-08-30T15:13:22Z",
   "owner": "IrsanAI",
   "repositories": [
     {
@@ -14,7 +14,7 @@
       "docs_url": "https://irsanai.github.io/IrsanAI-Universe/",
       "pages_url": "https://irsanai.github.io/IrsanAI-Universe/",
       "pages_detected": true,
-      "last_pushed": "2026-08-30T04:22:29Z",
+      "last_pushed": "2026-08-30T10:20:26Z",
       "last_reviewed": "2026-08-30",
       "stars": 0,
       "language": "Python",
@@ -96,7 +96,7 @@
       "layer": "recovery",
       "role": "Recovery and continuity node",
       "avatar": "assets/img/passfotos/NEXUS-Recover.png",
-      "sync_status": "ACTIVE",
+      "sync_status": "REVIEW",
       "canonical": true
     },
     {
