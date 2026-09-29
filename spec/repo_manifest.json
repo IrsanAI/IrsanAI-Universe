@@ -1,6 +1,6 @@
 {
   "version": "3.0.0",
-  "last_updated": "2026-09-29T15:28:33Z",
+  "last_updated": "2026-09-29T20:30:55Z",
   "owner": "IrsanAI",
   "repositories": [
     {
@@ -14,7 +14,7 @@
       "docs_url": "https://irsanai.github.io/IrsanAI-Universe/",
       "pages_url": "https://irsanai.github.io/IrsanAI-Universe/",
       "pages_detected": true,
-      "last_pushed": "2026-09-29T08:03:00Z",
+      "last_pushed": "2026-09-29T15:28:42Z",
       "last_reviewed": "2026-09-29",
       "stars": 0,
       "language": "Python",
@@ -384,7 +384,7 @@
       "layer": "epistemics",
       "role": "Evidence, adversarial challenge, and belief update",
       "avatar": "assets/img/passfotos/IrsanAI-VERA.png",
-      "sync_status": "REVIEW",
+      "sync_status": "STALE",
       "canonical": true
     },
     {
