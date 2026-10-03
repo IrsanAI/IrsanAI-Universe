@@ -1,6 +1,6 @@
 {
   "version": "3.0.0",
-  "last_updated": "2026-10-03T20:44:35Z",
+  "last_updated": "2026-10-03T23:35:16Z",
   "owner": "IrsanAI",
   "repositories": [
     {
@@ -14,7 +14,7 @@
       "docs_url": "https://irsanai.github.io/IrsanAI-Universe/",
       "pages_url": "https://irsanai.github.io/IrsanAI-Universe/",
       "pages_detected": true,
-      "last_pushed": "2026-10-03T17:04:10Z",
+      "last_pushed": "2026-10-03T20:44:46Z",
       "last_reviewed": "2026-10-03",
       "stars": 0,
       "language": "Python",
@@ -360,7 +360,7 @@
       "layer": "security",
       "role": "Device intelligence and anti-surveillance",
       "avatar": "assets/img/passfotos/IrsanAI-dis-core.png",
-      "sync_status": "REVIEW",
+      "sync_status": "STALE",
       "canonical": true
     },
     {
