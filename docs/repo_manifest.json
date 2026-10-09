@@ -1,6 +1,6 @@
 {
   "version": "3.0.0",
-  "last_updated": "2026-10-09T15:54:37Z",
+  "last_updated": "2026-10-09T20:38:50Z",
   "owner": "IrsanAI",
   "repositories": [
     {
@@ -14,7 +14,7 @@
       "docs_url": "https://irsanai.github.io/IrsanAI-Universe/",
       "pages_url": "https://irsanai.github.io/IrsanAI-Universe/",
       "pages_detected": true,
-      "last_pushed": "2026-10-09T08:37:52Z",
+      "last_pushed": "2026-10-09T15:54:45Z",
       "last_reviewed": "2026-10-09",
       "stars": 0,
       "language": "Python",
@@ -120,7 +120,7 @@
       "layer": "unmapped",
       "role": "Repository in the IrsanAI stack",
       "avatar": null,
-      "sync_status": "ACTIVE",
+      "sync_status": "REVIEW",
       "canonical": false
     },
     {
@@ -144,7 +144,7 @@
       "layer": "unmapped",
       "role": "Repository in the IrsanAI stack",
       "avatar": null,
-      "sync_status": "ACTIVE",
+      "sync_status": "REVIEW",
       "canonical": false
     },
     {
